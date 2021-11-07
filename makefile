@@ -3,8 +3,8 @@ TARGET_STATIC_LIB_DIR = ./lib
 TARGET = main
 
 #Dependencies
-DEPENDENCY_LIBS = 
-DEPENDENCY_INCLUDES =
+DEPENDENCY_LIBS = ./dependencies/HPML/lib/hpml.a
+DEPENDENCY_INCLUDES = ./dependencies/HPML/include
 
 INCLUDES= -I.\include $(addprefix -I, $(DEPENDENCY_INCLUDES))
 SOURCES= $(wildcard source/*.c)
@@ -78,5 +78,6 @@ clean:
 	del main.exe
 	del $(subst /,\, $(TARGET_STATIC_LIB))
 	rmdir $(subst /,\, $(TARGET_STATIC_LIB_DIR))
+	$(MAKE) --directory=./dependencies/HPML clean
 # 	$(MAKE) --directory=../../shared-dependencies/BufferLib clean
 #  	$(MAKE) --directory=./dependencies/tgc clean

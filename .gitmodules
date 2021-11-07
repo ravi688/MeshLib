@@ -1,0 +1,3 @@
+[submodule "dependencies/HPML"]
+	path = dependencies/HPML
+	url = https://github.com/ravi688/HPML.git

@@ -22,9 +22,14 @@ digraph MeshLib {
 	#include <SafeMemory.gv>
 	#undef digraph
 
+	#define digraph subgraph
+	#include <DiskManager.gv>
+	#undef digrpah
+
 	BufferLib -> MeshLib;
 	CallTrace -> MeshLib;
 	HPML -> MeshLib;
 	TemplateSystem -> MeshLib;
 	SafeMemory -> MeshLib;
+	DiskManager -> MeshLib;
 }

@@ -10,3 +10,6 @@
 [submodule "dependencies/SafeMemory"]
 	path = dependencies/SafeMemory
 	url = https://github.com/ravi688/SafeMemory.git
+[submodule "dependencies/DiskManager"]
+	path = dependencies/DiskManager
+	url = https://github.com/ravi688/DiskManager

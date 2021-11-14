@@ -15,8 +15,8 @@ PROJECT_NAME = MeshLib
 STATIC_LIB_NAME = meshlib.a
 DYNAMIC_LIB_NAME = #meshlib.dll
 EXECUTABLE_NAME = main.exe
-DEPENDENCIES = BufferLib TemplateSystem HPML BufferLib/dependencies/CallTrace
-DEPENDENCY_LIBS = BufferLib/lib/bufferlib.a HPML/lib/hpml.a BufferLib/dependencies/CallTrace/lib/calltrace.a
+DEPENDENCIES = BufferLib TemplateSystem HPML BufferLib/dependencies/CallTrace SafeMemory
+DEPENDENCY_LIBS = BufferLib/lib/bufferlib.a HPML/lib/hpml.a BufferLib/dependencies/CallTrace/lib/calltrace.a SafeMemory/lib/safemem.a
 DEPENDENCIES_DIR = ./dependencies
 SHARED_DEPENDENCIES = #CallTrace
 SHARED_DEPENDENCY_LIBS = #CallTrace/lib/calltrace.a
@@ -178,6 +178,7 @@ bin-clean:
 	@echo [Log] Binaries cleaned successfully!
 	$(MAKE) --directory=./dependencies/BufferLib clean
 	$(MAKE) --directory=./dependencies/HPML clean
+	$(MAKE) --directory=./dependencies/SafeMemory clean
 #-------------------------------------------
 
 

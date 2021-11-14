@@ -1,20 +1,24 @@
 
 #include <meshlib/data_structures.h>
+#include <calltrace/calltrace.h>
 
-
-mesh_t __mesh_new(u64 vertexStride)
+function_signature(mesh_t, __mesh_new, u64 vertexStride)
 {
-	return (mesh_t) 
+	CALLTRACE_BEGIN();
+	CALLTRACE_RETURN((mesh_t) 
 	{
 		.metaData = NULL,
 		.vertices = BUFcreate(NULL, vertexStride, 0, 0)
-	};
+	});
 }
 
-void mesh_destroy(mesh_t mesh)
+function_signature(void, mesh_destroy, mesh_t mesh)
 {
-	// if(metaData != NULL)
-	// 	free(metaData);
-	// if(mesh.vertices != BUF_INVALID)
-	// 	BUFfree(mesh.vertices);
+	CALLTRACE_BEGIN();
+	if(mesh.metaData != NULL)
+		free(mesh.metaData);
+	log_msg("Freeing the vertex buffer\n");
+	if(mesh.vertices != BUF_INVALID)
+		buf_free(mesh.vertices);
+	CALLTRACE_END();
 }

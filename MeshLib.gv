@@ -18,8 +18,13 @@ digraph MeshLib {
 	#include <TemplateSystem.gv>
 	#undef digraph
 
+	#define digraph subgraph
+	#include <SafeMemory.gv>
+	#undef digraph
+
 	BufferLib -> MeshLib;
 	CallTrace -> MeshLib;
 	HPML -> MeshLib;
 	TemplateSystem -> MeshLib;
+	SafeMemory -> MeshLib;
 }

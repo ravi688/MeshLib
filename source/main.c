@@ -1,3 +1,10 @@
+/*
+TODO: 
+1. Make buf_free() more secure
+2. 
+*/
+
+
 
 #include <stdio.h>
 #include <meshlib/data_structures.h>
@@ -13,24 +20,26 @@
 
 typedef struct 
 {
-	vec3_t(float) position;
 	vec4_t(float) color;
-	vec2_t(float) uv;
+	vec3_t(float) position;
 	vec3_t(float) normal;
+	vec2_t(float) uv;
 } vertex3d_t;
 
 int main(int argc, char** argv)
 {
-	// mesh_t m = mesh_new(vertex3d_t);
-	// vertex3d_t vertices[2] =  
-	// {
-	// 	{ { 0, 0, 0 }, { 1, 1, 1, 1 }, { 0, 1 }, { 1.2f, 2.3f, 0.1f } },
-	// 	{ { 0, 0, 0 }, { 1, 1, 1, 1 }, { 0, 1 }, { 1.2f, 2.3f, 0.1f } }
-	// };
-	// mesh_vertex_add(mesh, &vertices[0]);
+	safe_memory_init();
+	mesh_t mesh = mesh_new(vertex3d_t);
+	vertex3d_t vertices[2] = 
+	{
+		{ { 1, 1, 1, 1 }, { 0, 0, 0 }, { 0, 1, 0 }, { 1, 0 } },
+		{ { 1, 1, 1, 1 }, { 0, 0, 0 }, { 0, 1, 0 }, { 1, 0 } }
+	};
+	mesh_vertex_add(mesh, &vertices[0]);
 	// mesh_vertex_addv(mesh, vertices, 2);
-	// mesh_vertex_clear_all(mesh);
-	// mesh_vertices(mesh, vertex3d_t)[1] = (vertex3d_t) { };
-	// mesh_destroy(m);
+	// mesh_vertices_clear(mesh);
+	mesh_vertices(vertex3d_t, mesh)[0] = (vertex3d_t) { };
+	mesh_destroy(mesh);
+	safe_memory_terminate();
 	return 0;
 }

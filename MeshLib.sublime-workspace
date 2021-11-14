@@ -1,0 +1,3054 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"DEPE",
+				"DEPENDENCY_LIBS"
+			],
+			[
+				"vete",
+				"vertex3d_t"
+			],
+			[
+				"temp",
+				"template_instantiations.h"
+			],
+			[
+				"SAFE_MEMORY",
+				"SAFE_MEMORY_RELEASE"
+			],
+			[
+				"che",
+				"checked_struct_array"
+			],
+			[
+				"depe",
+				"dependencies"
+			],
+			[
+				"log",
+				"log_err"
+			],
+			[
+				"VkPipe",
+				"VkPipelineShaderStageCreateInfo"
+			],
+			[
+				"VkPiep",
+				"VkPipelineShaderStageCreateInfo"
+			],
+			[
+				"render",
+				"renderer"
+			],
+			[
+				"rend",
+				"renderer"
+			],
+			[
+				"vk_render",
+				"vk_render_pass"
+			],
+			[
+				"re",
+				"renderer"
+			],
+			[
+				"vk_pipe",
+				"vk_pipeline"
+			],
+			[
+				"r",
+				"renderer"
+			],
+			[
+				"vk",
+				"vk_device"
+			],
+			[
+				"vk_ima",
+				"vk_images"
+			],
+			[
+				"vk_phore",
+				"vk_render_finished_semaphore"
+			],
+			[
+				"__mat4",
+				"__mat4_build_cofactor"
+			],
+			[
+				"vertex",
+				"vertex3d_t"
+			],
+			[
+				"u",
+				"uint8_t"
+			],
+			[
+				"uint",
+				"uint32_t"
+			],
+			[
+				"screen",
+				"screen_width"
+			],
+			[
+				"WINDOW_",
+				"WINDOW_HEIGHT"
+			],
+			[
+				"mat4_tra",
+				"mat4_transpose"
+			],
+			[
+				"mat4_cofactor",
+				"mat4_cofactor_matrix"
+			],
+			[
+				"mat4_cofa",
+				"mat4_cofactor_matrix"
+			],
+			[
+				"mat",
+				"mat4_dump"
+			],
+			[
+				"mat4_de",
+				"__mat4_determinant"
+			],
+			[
+				"mat4",
+				"mat4ptr_t"
+			],
+			[
+				"vertice",
+				"vertices"
+			],
+			[
+				"va_",
+				"va_arg"
+			],
+			[
+				"q",
+				"quat_t"
+			],
+			[
+				"vkCmdBegin",
+				"VkCommandBufferBeginInfo"
+			],
+			[
+				"vkAlloca",
+				"VkCommandBufferAllocateInfo"
+			],
+			[
+				"vkCommand",
+				"VkCommandBufferAllocateInfo"
+			],
+			[
+				"vk_verte",
+				"vk_vertex_buffer"
+			],
+			[
+				"renderPas",
+				"renderPassBeginInfo"
+			],
+			[
+				"VkCmdBeg",
+				"VkCommandBufferBeginInfo"
+			],
+			[
+				"vk_get_pipe",
+				"vk_get_pipeline_shader_stage_create_info"
+			],
+			[
+				"VkPipelineColor",
+				"VkPipelineColorBlendStateCreateInfo"
+			],
+			[
+				"imageC",
+				"pImageIndices"
+			],
+			[
+				"vk_get_de",
+				"vk_get_device_queue"
+			],
+			[
+				"pWa",
+				"pWaitSemaphores"
+			],
+			[
+				"waitSem",
+				"pWaitSemaphores"
+			],
+			[
+				"vk_imga",
+				"vk_image_available_semaphore"
+			],
+			[
+				"VkCmdBegin",
+				"VkCommandBufferBeginInfo"
+			],
+			[
+				"vk_get_command",
+				"vk_get_command_pool"
+			],
+			[
+				"vk_image",
+				"vk_image_views"
+			],
+			[
+				"renderpa",
+				"renderPassCreateInfo"
+			],
+			[
+				"colorAt",
+				"colorAttachmentReference"
+			],
+			[
+				"color",
+				"colorAttachmentDescription"
+			],
+			[
+				"vk_s",
+				"vk_swapchain"
+			],
+			[
+				"enabledExt",
+				"ppEnabledExtensionNames"
+			],
+			[
+				"VK_FORM",
+				"VK_FORMAT_B8G8R8A8_SRGB"
+			],
+			[
+				"vk_",
+				"vk_surface"
+			],
+			[
+				"sub",
+				"subpass"
+			],
+			[
+				"colorAtta",
+				"colorAttachmentDescription"
+			],
+			[
+				"pre",
+				"presentQueue"
+			],
+			[
+				"renderP",
+				"renderPass"
+			],
+			[
+				"VkExtent",
+				"VkExtent2D"
+			],
+			[
+				"VkExte",
+				"VkExtent2D"
+			],
+			[
+				"WINDO",
+				"WINDOW_WIDTH"
+			],
+			[
+				"off",
+				"offsets"
+			],
+			[
+				"vk_get_pi",
+				"vk_get_pipeline_layout"
+			],
+			[
+				"VkPip",
+				"VkPipelineLayout"
+			],
+			[
+				"vk_get_im",
+				"vk_get_image_views"
+			],
+			[
+				"vkAlloc",
+				"vkAllocateMemory"
+			],
+			[
+				"memor",
+				"memProperties"
+			],
+			[
+				"VK_PRE",
+				"VK_PRESENT_MODE_MAIL_KHR"
+			],
+			[
+				"VK_FORMAT",
+				"VK_FORMAT_B8G8R8A8_SRGB"
+			],
+			[
+				"ba",
+				"basePipelineIndex"
+			],
+			[
+				"subp",
+				"subpass"
+			],
+			[
+				"pipelin",
+				"pipelineLayout"
+			],
+			[
+				"sc",
+				"scissorCount"
+			],
+			[
+				"pViewport",
+				"pViewportState"
+			],
+			[
+				"VkRenderPa",
+				"VkRenderPassCreateInfo"
+			],
+			[
+				"graphic",
+				"graphicsPipeline"
+			],
+			[
+				"renderPa",
+				"renderPassCreateInfo"
+			],
+			[
+				"cle",
+				"clearValue"
+			],
+			[
+				"framebuff",
+				"framebuffer"
+			],
+			[
+				"VK_STRUCTURE_TYPE_RENDERpA",
+				"VK_STRUCTURE_TYPE_RENDER_PASS_BEGIN_INFO"
+			],
+			[
+				"input",
+				"inputAssembly"
+			],
+			[
+				"stage",
+				"pStages"
+			],
+			[
+				"graphi",
+				"graphicsQueueIndex"
+			],
+			[
+				"VkSubpa",
+				"VkSubpassDependency"
+			],
+			[
+				"subpa",
+				"subpassCount"
+			],
+			[
+				"VkSub",
+				"VkSubpassDescription"
+			],
+			[
+				"VkRenderP",
+				"VkRenderPassCreateInfo"
+			],
+			[
+				"WNDOW_",
+				"WINDOW_HEIGHT"
+			],
+			[
+				"commandPol",
+				"commandPoolCreateInfo"
+			],
+			[
+				"vkDestroy",
+				"vkDestroySemaphore"
+			],
+			[
+				"frag",
+				"fragmentShaderModule"
+			],
+			[
+				"VkSwap",
+				"VkSwapchainCreateInfoKHR"
+			],
+			[
+				"instant",
+				"instantiate_declaration_array"
+			],
+			[
+				"gpu",
+				"gpus"
+			],
+			[
+				"enabledLayer",
+				"ppEnabledLayerNames"
+			],
+			[
+				"vk_get_pipeline_colo",
+				"vk_get_pipeline_color_blend_state_create_info"
+			],
+			[
+				"TE",
+				"TEST_OBJECTS"
+			],
+			[
+				"te",
+				"test-shader"
+			],
+			[
+				"test_fra",
+				"TEST_FRAGMENT_SPIRV_SHADERS"
+			],
+			[
+				"TEST_FRA",
+				"TEST_FRAGMENT_SPIRV_SHADERS"
+			],
+			[
+				"VK_ATTACHMENT_",
+				"VK_ATTACHMENT_STORE_OP_DONT_CARE"
+			],
+			[
+				"Vkattachme",
+				"VkAttachmentDescription"
+			],
+			[
+				"swap",
+				"swapchain"
+			],
+			[
+				"compo",
+				"compositeAlpha"
+			],
+			[
+				"cure",
+				"currentTransform"
+			],
+			[
+				"pQue",
+				"pQueueFamilyIndices"
+			],
+			[
+				"curr",
+				"currentExtent"
+			],
+			[
+				"glfw",
+				"glfwCreateWindow"
+			],
+			[
+				"VK_STRUCTURE_TYPE_DEVICE",
+				"VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO"
+			],
+			[
+				"devce",
+				"logicalDeviceCreateInfo"
+			],
+			[
+				"phy",
+				"physicalDevices"
+			],
+			[
+				"exten",
+				"extensionName"
+			],
+			[
+				"enabledExten",
+				"enabledExtensionNames"
+			],
+			[
+				"vk_im",
+				"vk_images"
+			],
+			[
+				"vk_graphics",
+				"vk_graphics_queue_index"
+			],
+			[
+				"VK_MEMORY",
+				"VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT"
+			],
+			[
+				"vk_ver",
+				"vk_vertex_memory"
+			],
+			[
+				"recomp",
+				"recompile_release"
+			],
+			[
+				"pVkVertex",
+				"pVkVertexInputBindingDescription_t"
+			],
+			[
+				"sle",
+				"selectedMemoryTypeIndex"
+			],
+			[
+				"memoryProperti",
+				"memoryPropertyBits"
+			],
+			[
+				"memoryProp",
+				"memoryPropertyBits"
+			],
+			[
+				"renderr",
+				"renderer_t"
+			],
+			[
+				"commandPoo",
+				"commandPoolCreateInfo"
+			],
+			[
+				"viewpor",
+				"viewportState"
+			],
+			[
+				"pipe",
+				"pipelineLayout"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "makefile",
+			"settings":
+			{
+				"buffer_size": 5646,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					7,
+					1,
+					"right_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAD9DAAAIy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojCTEuIENvZGUgUmUtZm9ybWF0dGluZyBhbmQgQ3VzdG9tIHByZXByb2Nlc3NpbmcKIy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKIy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKCgojLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMJMi4gQmluYXJpZXMgR2VuZXJhdGlvbgojLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tClRBUkdFVF9TVEFUSUNfTElCID0gLi9saWIvbWVzaGxpYi5hClRBUkdFVF9TVEFUSUNfTElCX0RJUiA9IC4vbGliClRBUkdFVCA9IG1haW4KCiNEZXBlbmRlbmNpZXMKREVQRU5ERU5DWV9MSUJTID0gLi9kZXBlbmRlbmNpZXMvSFBNTC9saWIvaHBtbC5hIC4vZGVwZW5kZW5jaWVzL0J1ZmZlckxpYi9saWIvYnVmZmVybGliLmEgLi9kZXBlbmRlbmNpZXMvQnVmZmVyTGliL2RlcGVuZGVuY2llcy9DYWxsVHJhY2UvbGliL2NhbGx0cmFjZS5hCkRFUEVOREVOQ1lfSU5DTFVERVMgPSAuL2RlcGVuZGVuY2llcy9IUE1ML2luY2x1ZGUgLi9kZXBlbmRlbmNpZXMvQnVmZmVyTGliL2luY2x1ZGUgLi9kZXBlbmRlbmNpZXMvVGVtcGxhdGVTeXN0ZW0vaW5jbHVkZSAuL2RlcGVuZGVuY2llcy9CdWZmZXJMaWIvZGVwZW5kZW5jaWVzL0NhbGxUcmFjZS9pbmNsdWRlCgpJTkNMVURFUz0gLUkuXGluY2x1ZGUgJChhZGRwcmVmaXggLUksICQoREVQRU5ERU5DWV9JTkNMVURFUykpClNPVVJDRVM9ICQod2lsZGNhcmQgc291cmNlLyouYykKT0JKRUNUUz0gJChhZGRzdWZmaXggLm8sICQoYmFzZW5hbWUgJChTT1VSQ0VTKSkpCkxJQlMgPSAKCiNGbGFncyBhbmQgRGVmaW5lcwpERUJVR19ERUZJTkVTID0gIC1ER0xPQkFMX0RFQlVHIC1EREVCVUcgLURMT0dfREVCVUcKUkVMRUFTRV9ERUZJTkVTID0gIC1ER0xPQkFMX1JFTEVBU0UgLURSRUxFQVNFIC1ETE9HX1JFTEVBU0UKREVGSU5FUyA9IAoKQ09NUElMRVJfRkxBR1M9IC1tNjQKQ09NUElMRVIgPSBnY2MKQVJDSElWRVJfRkxBR1MgPSAtcmMKQVJDSElWRVIgPSBhcgoKLlBIT05ZOiBsaWItc3RhdGljCi5QSE9OWTogbGliLXN0YXRpYy1kZWJ1ZwouUEhPTlk6IGxpYi1zdGF0aWMtcmVsZWFzZQouUEhPTlk6IHJlbGVhc2UKLlBIT05ZOiBkZWJ1ZwouUEhPTlk6ICQoVEFSR0VUKQkKLlBIT05ZOiBjbGVhbgoKYWxsOiByZWxlYXNlCmxpYi1zdGF0aWM6IGxpYi1zdGF0aWMtcmVsZWFzZQpsaWItc3RhdGljLWRlYnVnOiBERUZJTkVTICs9ICQoREVCVUdfREVGSU5FUykKbGliLXN0YXRpYy1kZWJ1ZzogX19TVEFUSUNfTElCX0NPTU1BTkQgPSBsaWItc3RhdGljLWRlYnVnCmxpYi1zdGF0aWMtZGVidWc6IENPTVBJTEVSX0ZMQUdTICs9IC1nCmxpYi1zdGF0aWMtZGVidWc6ICQoVEFSR0VUX1NUQVRJQ19MSUIpCmxpYi1zdGF0aWMtcmVsZWFzZTogREVGSU5FUyArPSAkKFJFTEVBU0VfREVGSU5FUykKbGliLXN0YXRpYy1yZWxlYXNlOiBfX1NUQVRJQ19MSUJfQ09NTUFORCA9IGxpYi1zdGF0aWMtcmVsZWFzZQpsaWItc3RhdGljLXJlbGVhc2U6ICQoVEFSR0VUX1NUQVRJQ19MSUIpCnJlbGVhc2U6IERFRklORVMgKz0gJChSRUxFQVNFX0RFRklORVMpCnJlbGVhc2U6IF9fU1RBVElDX0xJQl9DT01NQU5EID0gbGliLXN0YXRpYy1yZWxlYXNlCnJlbGVhc2U6ICQoVEFSR0VUKQpkZWJ1ZzogREVGSU5FUyArPSAkKERFQlVHX0RFRklORVMpCmRlYnVnOiBfX1NUQVRJQ19MSUJfQ09NTUFORCA9IGxpYi1zdGF0aWMtZGVidWcKZGVidWc6IENPTVBJTEVSX0ZMQUdTICs9IC1nCmRlYnVnOiAkKFRBUkdFVCkKCgolLm8gOiAlLmMKCSQoQ09NUElMRVIpICQoQ09NUElMRVJfRkxBR1MpICQoREVGSU5FUykgJChJTkNMVURFUykgLWMgJDwgLW8gJEAKCiUuYToKCUBlY2hvIFtMb2ddIEJ1aWxkaW5nICRAIC4uLgoJJChNQUtFKSAtLWRpcmVjdG9yeT0kKHN1YnN0IGxpYi8sICwkKGRpciAkQCkpICQoX19TVEFUSUNfTElCX0NPTU1BTkQpCglAZWNobyBbTG9nXSAkQCBidWlsdCBzdWNjZXNzZnVsbHkhCgokKFRBUkdFVF9TVEFUSUNfTElCX0RJUik6IAoJbWtkaXIgJEAKClBSSU5UX01FU1NBR0U6IAoJQGVjaG8gW0xvZ10gQnVpbGRpbmcgJChUQVJHRVRfU1RBVElDX0xJQikgLi4uCgokKFRBUkdFVF9TVEFUSUNfTElCKSA6IFBSSU5UX01FU1NBR0UgJChmaWx0ZXItb3V0IHNvdXJjZS9tYWluLm8sICQoT0JKRUNUUykpIHwgJChUQVJHRVRfU1RBVElDX0xJQl9ESVIpIAoJJChBUkNISVZFUikgJChBUkNISVZFUl9GTEFHUykgJEAgJChmaWx0ZXItb3V0ICQ8LCAkXikKCUBlY2hvIFtMb2ddICRAIGJ1aWx0IHN1Y2Nlc3NmdWxseSEKCgokKFRBUkdFVCk6ICQoREVQRU5ERU5DWV9MSUJTKSAkKFRBUkdFVF9TVEFUSUNfTElCKSBzb3VyY2UvbWFpbi5vCgkkKENPTVBJTEVSKSAkKENPTVBJTEVSX0ZMQUdTKSBzb3VyY2UvbWFpbi5vICQoTElCUykgXAoJJChhZGRwcmVmaXggLUwsICQoZGlyICQoVEFSR0VUX1NUQVRJQ19MSUIpICQoREVQRU5ERU5DWV9MSUJTKSkpIFwKCSQoYWRkcHJlZml4IC1sOiwgJChub3RkaXIgJChUQVJHRVRfU1RBVElDX0xJQikgJChERVBFTkRFTkNZX0xJQlMpKSkgXAoJLW8gJEAKCmNsZWFuOiAKCWRlbCAkKGFkZHByZWZpeCBzb3VyY2VcLCAkKG5vdGRpciAkKE9CSkVDVFMpKSkKCWRlbCBtYWluLmV4ZQoJZGVsICQoc3Vic3QgLyxcLCAkKFRBUkdFVF9TVEFUSUNfTElCKSkKCXJtZGlyICQoc3Vic3QgLyxcLCAkKFRBUkdFVF9TVEFUSUNfTElCX0RJUikpCgkkKE1BS0UpIC0tZGlyZWN0b3J5PS4vZGVwZW5kZW5jaWVzL0hQTUwgY2xlYW4KCSQoTUFLRSkgLS1kaXJlY3Rvcnk9Li9kZXBlbmRlbmNpZXMvQnVmZmVyTGliIGNsZWFuCiMgCSQoTUFLRSkgLS1kaXJlY3Rvcnk9CiMgIAkkKE1BS0UpIC0tZGlyZWN0b3J5PS4vZGVwZW5kZW5jaWVzL3RnYyBjbGVhbgojLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCgojLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIwkzLiBEZXBlbmRlbmN5IGdyYXBoIGdlbmVyYXRpb24KIy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgojLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCiMtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojCTQuIERvY3VtZW50YXRpb24gZ2VuZXJhdG9pbgojLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCiMtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAD9DAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAFBUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "MeshLib"
+					},
+					"CAAAALkBAAAAAAAAugEAAAAAAAAAAAAAugEAAAAAAAC6AQAAAAAAABIAAABUZW1wbGF0ZVJlcG9zaXRvcnm6AQAAAAAAALsBAAAAAAAAAAAAALsBAAAAAAAAvAEAAAAAAAAAAAAAvAEAAAAAAAC9AQAAAAAAAAAAAAC9AQAAAAAAAL4BAAAAAAAAAAAAAL4BAAAAAAAAvwEAAAAAAAAAAAAAvwEAAAAAAADAAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAywEAAAAAAAC5AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": "meshlib"
+					},
+					"CAAAANMBAAAAAAAA1AEAAAAAAAAAAAAA1AEAAAAAAADUAQAAAAAAAAgAAAB0ZW1wcmVwb9QBAAAAAAAA1QEAAAAAAAAAAAAA1QEAAAAAAADWAQAAAAAAAAAAAADWAQAAAAAAANcBAAAAAAAAAAAAANcBAAAAAAAA2AEAAAAAAAAAAAAA2AEAAAAAAADZAQAAAAAAAAAAAADZAQAAAAAAANoBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2wEAAAAAAADTAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "BufferLib"
+					},
+					"CgAAAEoCAAAAAAAASwIAAAAAAAAAAAAASwIAAAAAAABLAgAAAAAAAAgAAABFeGFtcGxlMUsCAAAAAAAATAIAAAAAAAAAAAAATAIAAAAAAABNAgAAAAAAAAAAAABNAgAAAAAAAE4CAAAAAAAAAAAAAE4CAAAAAAAATwIAAAAAAAAAAAAATwIAAAAAAABQAgAAAAAAAAAAAABQAgAAAAAAAFECAAAAAAAAAAAAAFECAAAAAAAAUgIAAAAAAAAAAAAAUgIAAAAAAABTAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUgIAAAAAAABKAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "HPML"
+					},
+					"BQAAAFQCAAAAAAAAVQIAAAAAAAAAAAAAVQIAAAAAAABVAgAAAAAAAAgAAABFeGFtcGxlMlUCAAAAAAAAVgIAAAAAAAAAAAAAVgIAAAAAAABXAgAAAAAAAAAAAABXAgAAAAAAAFgCAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVAIAAAAAAABcAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": " TemplateS"
+					},
+					"CgAAAFgCAAAAAAAAWQIAAAAAAAAAAAAAWQIAAAAAAABaAgAAAAAAAAAAAABaAgAAAAAAAFsCAAAAAAAAAAAAAFsCAAAAAAAAXAIAAAAAAAAAAAAAXAIAAAAAAABdAgAAAAAAAAAAAABdAgAAAAAAAF4CAAAAAAAAAAAAAF4CAAAAAAAAXwIAAAAAAAAAAAAAXwIAAAAAAABgAgAAAAAAAAAAAABgAgAAAAAAAGECAAAAAAAAAAAAAGECAAAAAAAAYgIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWAIAAAAAAABYAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": "ystem"
+					},
+					"BQAAAGICAAAAAAAAYwIAAAAAAAAAAAAAYwIAAAAAAABkAgAAAAAAAAAAAABkAgAAAAAAAGUCAAAAAAAAAAAAAGUCAAAAAAAAZgIAAAAAAAAAAAAAZgIAAAAAAABnAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYgIAAAAAAABiAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					35,
+					2,
+					"swap_line_down",
+					null,
+					"BAAAAGgCAAAAAAAAigIAAAAAAAAAAAAAGQIAAAAAAAAZAgAAAAAAACIAAABERVBFTkRFTkNJRVNfRElSID0gLlxkZXBlbmRlbmNpZXMKpAIAAAAAAADGAgAAAAAAAAAAAABGAgAAAAAAAEYCAAAAAAAAIgAAAERFUEVOREVOQ0lFU19ESVIgPSAuXGRlcGVuZGVuY2llcwo",
+					"AQAAAAAAAAABAAAALAIAAAAAAAAsAgAAAAAAAAAAAAAAwGhA"
+				],
+				[
+					40,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFgCAAAAAAAAWAIAAAAAAAABAAAAIw",
+					"AQAAAAAAAAABAAAAWQIAAAAAAABZAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					48,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAJ4DAAAAAAAAnwMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAngMAAAAAAACeAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					50,
+					1,
+					"insert",
+					{
+						"characters": "__DEPE"
+					},
+					"BgAAAJ4DAAAAAAAAnwMAAAAAAAAAAAAAnwMAAAAAAACgAwAAAAAAAAAAAACgAwAAAAAAAKEDAAAAAAAAAAAAAKEDAAAAAAAAogMAAAAAAAAAAAAAogMAAAAAAACjAwAAAAAAAAAAAACjAwAAAAAAAKQDAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAngMAAAAAAACeAwAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					51,
+					1,
+					"insert",
+					{
+						"characters": "NDENCY_"
+					},
+					"BwAAAKQDAAAAAAAApQMAAAAAAAAAAAAApQMAAAAAAACmAwAAAAAAAAAAAACmAwAAAAAAAKcDAAAAAAAAAAAAAKcDAAAAAAAAqAMAAAAAAAAAAAAAqAMAAAAAAACpAwAAAAAAAAAAAACpAwAAAAAAAKoDAAAAAAAAAAAAAKoDAAAAAAAAqwMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApAMAAAAAAACkAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					52,
+					1,
+					"insert",
+					{
+						"characters": "LIBS"
+					},
+					"BAAAAKsDAAAAAAAArAMAAAAAAAAAAAAArAMAAAAAAACtAwAAAAAAAAAAAACtAwAAAAAAAK4DAAAAAAAAAAAAAK4DAAAAAAAArwMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqwMAAAAAAACrAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					53,
+					1,
+					"insert",
+					{
+						"characters": " ="
+					},
+					"AgAAAK8DAAAAAAAAsAMAAAAAAAAAAAAAsAMAAAAAAACxAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArwMAAAAAAACvAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					54,
+					1,
+					"insert",
+					{
+						"characters": " $"
+					},
+					"AgAAALEDAAAAAAAAsgMAAAAAAAAAAAAAsgMAAAAAAACzAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAsQMAAAAAAACxAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					55,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAALMDAAAAAAAAtQMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAswMAAAAAAACzAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					56,
+					1,
+					"insert",
+					{
+						"characters": "addpre"
+					},
+					"BgAAALQDAAAAAAAAtQMAAAAAAAAAAAAAtQMAAAAAAAC2AwAAAAAAAAAAAAC2AwAAAAAAALcDAAAAAAAAAAAAALcDAAAAAAAAuAMAAAAAAAAAAAAAuAMAAAAAAAC5AwAAAAAAAAAAAAC5AwAAAAAAALoDAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtAMAAAAAAAC0AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					57,
+					1,
+					"insert_completion",
+					{
+						"completion": "addprefix",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "addprefix"
+					},
+					"AgAAALQDAAAAAAAAtAMAAAAAAAAGAAAAYWRkcHJltAMAAAAAAAC9AwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAugMAAAAAAAC6AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					58,
+					1,
+					"insert",
+					{
+						"characters": " $"
+					},
+					"AgAAAL0DAAAAAAAAvgMAAAAAAAAAAAAAvgMAAAAAAAC/AwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvQMAAAAAAAC9AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					59,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAL8DAAAAAAAAwQMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvwMAAAAAAAC/AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					60,
+					1,
+					"insert",
+					{
+						"characters": "DEPE"
+					},
+					"BAAAAMADAAAAAAAAwQMAAAAAAAAAAAAAwQMAAAAAAADCAwAAAAAAAAAAAADCAwAAAAAAAMMDAAAAAAAAAAAAAMMDAAAAAAAAxAMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwAMAAAAAAADAAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					61,
+					1,
+					"insert_completion",
+					{
+						"completion": "DEPENDENCIES_DIR",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "DEPENDENCIES_DIR"
+					},
+					"AgAAAMADAAAAAAAAwAMAAAAAAAAEAAAAREVQRcADAAAAAAAA0AMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxAMAAAAAAADEAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					63,
+					1,
+					"insert",
+					{
+						"characters": "/,"
+					},
+					"AgAAANEDAAAAAAAA0gMAAAAAAAAAAAAA0gMAAAAAAADTAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0QMAAAAAAADRAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					64,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAANMDAAAAAAAA1AMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0wMAAAAAAADTAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					65,
+					1,
+					"insert",
+					{
+						"characters": "$"
+					},
+					"AQAAANQDAAAAAAAA1QMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1AMAAAAAAADUAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					66,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAANUDAAAAAAAA1wMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1QMAAAAAAADVAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					67,
+					1,
+					"insert",
+					{
+						"characters": "DEPE"
+					},
+					"BAAAANYDAAAAAAAA1wMAAAAAAAAAAAAA1wMAAAAAAADYAwAAAAAAAAAAAADYAwAAAAAAANkDAAAAAAAAAAAAANkDAAAAAAAA2gMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1gMAAAAAAADWAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					71,
+					1,
+					"insert_completion",
+					{
+						"completion": "DEPENDENCY_LIBS",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "DEPENDENCY_LIBS"
+					},
+					"AgAAANYDAAAAAAAA1gMAAAAAAAAEAAAAREVQRdYDAAAAAAAA5QMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2gMAAAAAAADaAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					77,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFgCAAAAAAAAWAIAAAAAAAAPAAAALi9kZXBlbmRlbmNpZXMv",
+					"AQAAAAAAAAABAAAAZwIAAAAAAABYAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					97,
+					1,
+					"paste",
+					null,
+					"AgAAAKURAAAAAAAAthEAAAAAAAAAAAAAthEAAAAAAAC2EQAAAAAAAA8AAABERVBFTkRFTkNZX0xJQlM",
+					"AQAAAAAAAAABAAAAtBEAAAAAAAClEQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					104,
+					1,
+					"paste",
+					null,
+					"AgAAAFwSAAAAAAAAbRIAAAAAAAAAAAAAbRIAAAAAAABtEgAAAAAAAA8AAABERVBFTkRFTkNZX0xJQlM",
+					"AQAAAAAAAAABAAAAXBIAAAAAAABrEgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					108,
+					1,
+					"paste",
+					null,
+					"AgAAAKUSAAAAAAAAthIAAAAAAAAAAAAAthIAAAAAAAC2EgAAAAAAAA8AAABERVBFTkRFTkNZX0xJQlM",
+					"AQAAAAAAAAABAAAApRIAAAAAAAC0EgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					128,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAM0TAAAAAAAAzhMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzRMAAAAAAADNEwAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					130,
+					1,
+					"reindent",
+					null,
+					"AQAAAM0TAAAAAAAAzhMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzRMAAAAAAADNEwAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					131,
+					1,
+					"insert",
+					{
+						"characters": "$"
+					},
+					"AQAAAM4TAAAAAAAAzxMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzhMAAAAAAADOEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					132,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAM8TAAAAAAAA0RMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzxMAAAAAAADPEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					133,
+					1,
+					"insert",
+					{
+						"characters": "MAK"
+					},
+					"AwAAANATAAAAAAAA0RMAAAAAAAAAAAAA0RMAAAAAAADSEwAAAAAAAAAAAADSEwAAAAAAANMTAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0BMAAAAAAADQEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					135,
+					1,
+					"insert",
+					{
+						"characters": " --dire"
+					},
+					"BwAAANQTAAAAAAAA1RMAAAAAAAAAAAAA1RMAAAAAAADWEwAAAAAAAAAAAADWEwAAAAAAANcTAAAAAAAAAAAAANcTAAAAAAAA2BMAAAAAAAAAAAAA2BMAAAAAAADZEwAAAAAAAAAAAADZEwAAAAAAANoTAAAAAAAAAAAAANoTAAAAAAAA2xMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1BMAAAAAAADUEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					136,
+					8,
+					"left_delete",
+					null,
+					"CAAAANoTAAAAAAAA2hMAAAAAAAABAAAAZdkTAAAAAAAA2RMAAAAAAAABAAAActgTAAAAAAAA2BMAAAAAAAABAAAAadcTAAAAAAAA1xMAAAAAAAABAAAAZNYTAAAAAAAA1hMAAAAAAAABAAAALdUTAAAAAAAA1RMAAAAAAAABAAAALdQTAAAAAAAA1BMAAAAAAAABAAAAINMTAAAAAAAA0xMAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAA2xMAAAAAAADbEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					137,
+					1,
+					"insert",
+					{
+						"characters": "E)"
+					},
+					"AgAAANMTAAAAAAAA1BMAAAAAAAAAAAAA1BMAAAAAAADVEwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0xMAAAAAAADTEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					138,
+					1,
+					"insert",
+					{
+						"characters": " --directory="
+					},
+					"DQAAANUTAAAAAAAA1hMAAAAAAAAAAAAA1hMAAAAAAADXEwAAAAAAAAAAAADXEwAAAAAAANgTAAAAAAAAAAAAANgTAAAAAAAA2RMAAAAAAAAAAAAA2RMAAAAAAADaEwAAAAAAAAAAAADaEwAAAAAAANsTAAAAAAAAAAAAANsTAAAAAAAA3BMAAAAAAAAAAAAA3BMAAAAAAADdEwAAAAAAAAAAAADdEwAAAAAAAN4TAAAAAAAAAAAAAN4TAAAAAAAA3xMAAAAAAAAAAAAA3xMAAAAAAADgEwAAAAAAAAAAAADgEwAAAAAAAOETAAAAAAAAAAAAAOETAAAAAAAA4hMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1RMAAAAAAADVEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					139,
+					1,
+					"insert",
+					{
+						"characters": "./"
+					},
+					"AgAAAOITAAAAAAAA4xMAAAAAAAAAAAAA4xMAAAAAAADkEwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4hMAAAAAAADiEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					140,
+					1,
+					"insert",
+					{
+						"characters": "dpe"
+					},
+					"AwAAAOQTAAAAAAAA5RMAAAAAAAAAAAAA5RMAAAAAAADmEwAAAAAAAAAAAADmEwAAAAAAAOcTAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5BMAAAAAAADkEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					141,
+					1,
+					"insert_completion",
+					{
+						"completion": "dependencies",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "dependencies"
+					},
+					"AgAAAOQTAAAAAAAA5BMAAAAAAAADAAAAZHBl5BMAAAAAAADwEwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5xMAAAAAAADnEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					142,
+					1,
+					"insert",
+					{
+						"characters": "/BufferLi"
+					},
+					"CQAAAPATAAAAAAAA8RMAAAAAAAAAAAAA8RMAAAAAAADyEwAAAAAAAAAAAADyEwAAAAAAAPMTAAAAAAAAAAAAAPMTAAAAAAAA9BMAAAAAAAAAAAAA9BMAAAAAAAD1EwAAAAAAAAAAAAD1EwAAAAAAAPYTAAAAAAAAAAAAAPYTAAAAAAAA9xMAAAAAAAAAAAAA9xMAAAAAAAD4EwAAAAAAAAAAAAD4EwAAAAAAAPkTAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8BMAAAAAAADwEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					143,
+					1,
+					"insert",
+					{
+						"characters": "b"
+					},
+					"AQAAAPkTAAAAAAAA+hMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+RMAAAAAAAD5EwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					144,
+					1,
+					"insert",
+					{
+						"characters": "\n$"
+					},
+					"AwAAAPoTAAAAAAAA+xMAAAAAAAAAAAAA+xMAAAAAAAD8EwAAAAAAAAAAAAD8EwAAAAAAAP0TAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+hMAAAAAAAD6EwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					145,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAP0TAAAAAAAA/xMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/RMAAAAAAAD9EwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					146,
+					1,
+					"insert",
+					{
+						"characters": "MAKE"
+					},
+					"BAAAAP4TAAAAAAAA/xMAAAAAAAAAAAAA/xMAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAEUAAAAAAAAAAAAAAEUAAAAAAAAAhQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/hMAAAAAAAD+EwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					148,
+					1,
+					"insert",
+					{
+						"characters": " --"
+					},
+					"AwAAAAMUAAAAAAAABBQAAAAAAAAAAAAABBQAAAAAAAAFFAAAAAAAAAAAAAAFFAAAAAAAAAYUAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAxQAAAAAAAADFAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					149,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAAYUAAAAAAAABxQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABhQAAAAAAAAGFAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					150,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAYUAAAAAAAABhQAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAABxQAAAAAAAAHFAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					151,
+					1,
+					"insert",
+					{
+						"characters": "directory=./de"
+					},
+					"DgAAAAYUAAAAAAAABxQAAAAAAAAAAAAABxQAAAAAAAAIFAAAAAAAAAAAAAAIFAAAAAAAAAkUAAAAAAAAAAAAAAkUAAAAAAAAChQAAAAAAAAAAAAAChQAAAAAAAALFAAAAAAAAAAAAAALFAAAAAAAAAwUAAAAAAAAAAAAAAwUAAAAAAAADRQAAAAAAAAAAAAADRQAAAAAAAAOFAAAAAAAAAAAAAAOFAAAAAAAAA8UAAAAAAAAAAAAAA8UAAAAAAAAEBQAAAAAAAAAAAAAEBQAAAAAAAARFAAAAAAAAAAAAAARFAAAAAAAABIUAAAAAAAAAAAAABIUAAAAAAAAExQAAAAAAAAAAAAAExQAAAAAAAAUFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABhQAAAAAAAAGFAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					152,
+					1,
+					"insert_completion",
+					{
+						"completion": "dependencies",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "dependencies"
+					},
+					"AgAAABIUAAAAAAAAEhQAAAAAAAACAAAAZGUSFAAAAAAAAB4UAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFBQAAAAAAAAUFAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					153,
+					1,
+					"insert",
+					{
+						"characters": "/HPML"
+					},
+					"BQAAAB4UAAAAAAAAHxQAAAAAAAAAAAAAHxQAAAAAAAAgFAAAAAAAAAAAAAAgFAAAAAAAACEUAAAAAAAAAAAAACEUAAAAAAAAIhQAAAAAAAAAAAAAIhQAAAAAAAAjFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHhQAAAAAAAAeFAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					175,
+					1,
+					"cut",
+					null,
+					"AQAAAA8NAAAAAAAADw0AAAAAAAAXAAAALlBIT05ZOiBQUklOVF9NRVNTQUdFMgo",
+					"AQAAAAAAAAABAAAADw0AAAAAAAAPDQAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					191,
+					1,
+					"insert",
+					{
+						"characters": " clean"
+					},
+					"BgAAAOMTAAAAAAAA5BMAAAAAAAAAAAAA5BMAAAAAAADlEwAAAAAAAAAAAADlEwAAAAAAAOYTAAAAAAAAAAAAAOYTAAAAAAAA5xMAAAAAAAAAAAAA5xMAAAAAAADoEwAAAAAAAAAAAADoEwAAAAAAAOkTAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4xMAAAAAAADjEwAAAAAAAP///////+9/"
+				],
+				[
+					193,
+					1,
+					"insert",
+					{
+						"characters": " clean"
+					},
+					"BgAAABIUAAAAAAAAExQAAAAAAAAAAAAAExQAAAAAAAAUFAAAAAAAAAAAAAAUFAAAAAAAABUUAAAAAAAAAAAAABUUAAAAAAAAFhQAAAAAAAAAAAAAFhQAAAAAAAAXFAAAAAAAAAAAAAAXFAAAAAAAABgUAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEhQAAAAAAAASFAAAAAAAAAAAAAAAoIFA"
+				],
+				[
+					200,
+					1,
+					"insert",
+					{
+						"characters": " BufferLl"
+					},
+					"CQAAAEUCAAAAAAAARgIAAAAAAAAAAAAARgIAAAAAAABHAgAAAAAAAAAAAABHAgAAAAAAAEgCAAAAAAAAAAAAAEgCAAAAAAAASQIAAAAAAAAAAAAASQIAAAAAAABKAgAAAAAAAAAAAABKAgAAAAAAAEsCAAAAAAAAAAAAAEsCAAAAAAAATAIAAAAAAAAAAAAATAIAAAAAAABNAgAAAAAAAAAAAABNAgAAAAAAAE4CAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARQIAAAAAAABFAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					201,
+					1,
+					"left_delete",
+					null,
+					"AQAAAE0CAAAAAAAATQIAAAAAAAABAAAAbA",
+					"AQAAAAAAAAABAAAATgIAAAAAAABOAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					202,
+					1,
+					"insert",
+					{
+						"characters": "ib/CallTra"
+					},
+					"CgAAAE0CAAAAAAAATgIAAAAAAAAAAAAATgIAAAAAAABPAgAAAAAAAAAAAABPAgAAAAAAAFACAAAAAAAAAAAAAFACAAAAAAAAUQIAAAAAAAAAAAAAUQIAAAAAAABSAgAAAAAAAAAAAABSAgAAAAAAAFMCAAAAAAAAAAAAAFMCAAAAAAAAVAIAAAAAAAAAAAAAVAIAAAAAAABVAgAAAAAAAAAAAABVAgAAAAAAAFYCAAAAAAAAAAAAAFYCAAAAAAAAVwIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATQIAAAAAAABNAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					203,
+					1,
+					"insert",
+					{
+						"characters": "ce"
+					},
+					"AgAAAFcCAAAAAAAAWAIAAAAAAAAAAAAAWAIAAAAAAABZAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVwIAAAAAAABXAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					204,
+					9,
+					"left_delete",
+					null,
+					"CQAAAFgCAAAAAAAAWAIAAAAAAAABAAAAZVcCAAAAAAAAVwIAAAAAAAABAAAAY1YCAAAAAAAAVgIAAAAAAAABAAAAYVUCAAAAAAAAVQIAAAAAAAABAAAAclQCAAAAAAAAVAIAAAAAAAABAAAAVFMCAAAAAAAAUwIAAAAAAAABAAAAbFICAAAAAAAAUgIAAAAAAAABAAAAbFECAAAAAAAAUQIAAAAAAAABAAAAYVACAAAAAAAAUAIAAAAAAAABAAAAQw",
+					"AQAAAAAAAAABAAAAWQIAAAAAAABZAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					205,
+					1,
+					"insert",
+					{
+						"characters": "de"
+					},
+					"AgAAAFACAAAAAAAAUQIAAAAAAAAAAAAAUQIAAAAAAABSAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUAIAAAAAAABQAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					206,
+					1,
+					"insert",
+					{
+						"characters": "penden"
+					},
+					"BgAAAFICAAAAAAAAUwIAAAAAAAAAAAAAUwIAAAAAAABUAgAAAAAAAAAAAABUAgAAAAAAAFUCAAAAAAAAAAAAAFUCAAAAAAAAVgIAAAAAAAAAAAAAVgIAAAAAAABXAgAAAAAAAAAAAABXAgAAAAAAAFgCAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUgIAAAAAAABSAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					207,
+					1,
+					"insert",
+					{
+						"characters": "cies/CallTrace"
+					},
+					"DgAAAFgCAAAAAAAAWQIAAAAAAAAAAAAAWQIAAAAAAABaAgAAAAAAAAAAAABaAgAAAAAAAFsCAAAAAAAAAAAAAFsCAAAAAAAAXAIAAAAAAAAAAAAAXAIAAAAAAABdAgAAAAAAAAAAAABdAgAAAAAAAF4CAAAAAAAAAAAAAF4CAAAAAAAAXwIAAAAAAAAAAAAAXwIAAAAAAABgAgAAAAAAAAAAAABgAgAAAAAAAGECAAAAAAAAAAAAAGECAAAAAAAAYgIAAAAAAAAAAAAAYgIAAAAAAABjAgAAAAAAAAAAAABjAgAAAAAAAGQCAAAAAAAAAAAAAGQCAAAAAAAAZQIAAAAAAAAAAAAAZQIAAAAAAABmAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWAIAAAAAAABYAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					209,
+					1,
+					"insert",
+					{
+						"characters": " BuffeLib/"
+					},
+					"CgAAAJICAAAAAAAAkwIAAAAAAAAAAAAAkwIAAAAAAACUAgAAAAAAAAAAAACUAgAAAAAAAJUCAAAAAAAAAAAAAJUCAAAAAAAAlgIAAAAAAAAAAAAAlgIAAAAAAACXAgAAAAAAAAAAAACXAgAAAAAAAJgCAAAAAAAAAAAAAJgCAAAAAAAAmQIAAAAAAAAAAAAAmQIAAAAAAACaAgAAAAAAAAAAAACaAgAAAAAAAJsCAAAAAAAAAAAAAJsCAAAAAAAAnAIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkgIAAAAAAACSAgAAAAAAAAAAAAAAIIlA"
+				],
+				[
+					210,
+					1,
+					"insert",
+					{
+						"characters": "de"
+					},
+					"AgAAAJwCAAAAAAAAnQIAAAAAAAAAAAAAnQIAAAAAAACeAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAnAIAAAAAAACcAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					211,
+					1,
+					"insert_completion",
+					{
+						"completion": "dependencies",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "dependencies"
+					},
+					"AgAAAJwCAAAAAAAAnAIAAAAAAAACAAAAZGWcAgAAAAAAAKgCAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAngIAAAAAAACeAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					212,
+					1,
+					"insert",
+					{
+						"characters": "/Call"
+					},
+					"BQAAAKgCAAAAAAAAqQIAAAAAAAAAAAAAqQIAAAAAAACqAgAAAAAAAAAAAACqAgAAAAAAAKsCAAAAAAAAAAAAAKsCAAAAAAAArAIAAAAAAAAAAAAArAIAAAAAAACtAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqAIAAAAAAACoAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					213,
+					1,
+					"insert_completion",
+					{
+						"completion": "CallTrace",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "CallTrace"
+					},
+					"AgAAAKkCAAAAAAAAqQIAAAAAAAAEAAAAQ2FsbKkCAAAAAAAAsgIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArQIAAAAAAACtAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					214,
+					1,
+					"insert",
+					{
+						"characters": "/lib/callt"
+					},
+					"CgAAALICAAAAAAAAswIAAAAAAAAAAAAAswIAAAAAAAC0AgAAAAAAAAAAAAC0AgAAAAAAALUCAAAAAAAAAAAAALUCAAAAAAAAtgIAAAAAAAAAAAAAtgIAAAAAAAC3AgAAAAAAAAAAAAC3AgAAAAAAALgCAAAAAAAAAAAAALgCAAAAAAAAuQIAAAAAAAAAAAAAuQIAAAAAAAC6AgAAAAAAAAAAAAC6AgAAAAAAALsCAAAAAAAAAAAAALsCAAAAAAAAvAIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAsgIAAAAAAACyAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					215,
+					1,
+					"insert",
+					{
+						"characters": "race.a"
+					},
+					"BgAAALwCAAAAAAAAvQIAAAAAAAAAAAAAvQIAAAAAAAC+AgAAAAAAAAAAAAC+AgAAAAAAAL8CAAAAAAAAAAAAAL8CAAAAAAAAwAIAAAAAAAAAAAAAwAIAAAAAAADBAgAAAAAAAAAAAADBAgAAAAAAAMICAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvAIAAAAAAAC8AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					218,
+					1,
+					"insert",
+					{
+						"characters": " HPML"
+					},
+					"BQAAAMICAAAAAAAAwwIAAAAAAAAAAAAAwwIAAAAAAADEAgAAAAAAAAAAAADEAgAAAAAAAMUCAAAAAAAAAAAAAMUCAAAAAAAAxgIAAAAAAAAAAAAAxgIAAAAAAADHAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwgIAAAAAAADCAgAAAAAAAAAAAAAAuI1A"
+				],
+				[
+					219,
+					1,
+					"insert",
+					{
+						"characters": "/lib/h"
+					},
+					"BgAAAMcCAAAAAAAAyAIAAAAAAAAAAAAAyAIAAAAAAADJAgAAAAAAAAAAAADJAgAAAAAAAMoCAAAAAAAAAAAAAMoCAAAAAAAAywIAAAAAAAAAAAAAywIAAAAAAADMAgAAAAAAAAAAAADMAgAAAAAAAM0CAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxwIAAAAAAADHAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					220,
+					1,
+					"insert",
+					{
+						"characters": "pmla."
+					},
+					"BQAAAM0CAAAAAAAAzgIAAAAAAAAAAAAAzgIAAAAAAADPAgAAAAAAAAAAAADPAgAAAAAAANACAAAAAAAAAAAAANACAAAAAAAA0QIAAAAAAAAAAAAA0QIAAAAAAADSAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzQIAAAAAAADNAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					221,
+					2,
+					"left_delete",
+					null,
+					"AgAAANECAAAAAAAA0QIAAAAAAAABAAAALtACAAAAAAAA0AIAAAAAAAABAAAAYQ",
+					"AQAAAAAAAAABAAAA0gIAAAAAAADSAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					222,
+					1,
+					"insert",
+					{
+						"characters": ".a"
+					},
+					"AgAAANACAAAAAAAA0QIAAAAAAAAAAAAA0QIAAAAAAADSAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0AIAAAAAAADQAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					290,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOcCAAAAAAAA5wIAAAAAAAABAAAAXA",
+					"AQAAAAAAAAABAAAA6AIAAAAAAADoAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					291,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAAOcCAAAAAAAA6AIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5wIAAAAAAADnAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					297,
+					1,
+					"insert",
+					{
+						"characters": "$*("
+					},
+					"AwAAADAFAAAAAAAAMQUAAAAAAAAAAAAAMQUAAAAAAAAyBQAAAAAAAAAAAAAyBQAAAAAAADMFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMAUAAAAAAAAwBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					298,
+					2,
+					"left_delete",
+					null,
+					"AgAAADIFAAAAAAAAMgUAAAAAAAABAAAAKDEFAAAAAAAAMQUAAAAAAAABAAAAKg",
+					"AQAAAAAAAAABAAAAMwUAAAAAAAAzBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					299,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAADEFAAAAAAAAMwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMQUAAAAAAAAxBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					300,
+					1,
+					"insert",
+					{
+						"characters": "sub"
+					},
+					"AwAAADIFAAAAAAAAMwUAAAAAAAAAAAAAMwUAAAAAAAA0BQAAAAAAAAAAAAA0BQAAAAAAADUFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMgUAAAAAAAAyBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					301,
+					1,
+					"insert_completion",
+					{
+						"completion": "subst",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "subst"
+					},
+					"AgAAADIFAAAAAAAAMgUAAAAAAAADAAAAc3ViMgUAAAAAAAA3BQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANQUAAAAAAAA1BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					302,
+					1,
+					"insert",
+					{
+						"characters": " /,"
+					},
+					"AwAAADcFAAAAAAAAOAUAAAAAAAAAAAAAOAUAAAAAAAA5BQAAAAAAAAAAAAA5BQAAAAAAADoFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANwUAAAAAAAA3BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					303,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAADoFAAAAAAAAOwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOgUAAAAAAAA6BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					304,
+					1,
+					"left_delete",
+					null,
+					"AQAAADoFAAAAAAAAOgUAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAOwUAAAAAAAA7BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					305,
+					1,
+					"insert",
+					{
+						"characters": "\\"
+					},
+					"AQAAADoFAAAAAAAAOwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOgUAAAAAAAA6BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					306,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAADsFAAAAAAAAPAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOwUAAAAAAAA7BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					307,
+					1,
+					"left_delete",
+					null,
+					"AQAAADsFAAAAAAAAOwUAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAPAUAAAAAAAA8BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					308,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAADsFAAAAAAAAPAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOwUAAAAAAAA7BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					309,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAADwFAAAAAAAAPQUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPAUAAAAAAAA8BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					311,
+					1,
+					"left_delete",
+					null,
+					"AQAAAD0FAAAAAAAAPQUAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAAPgUAAAAAAAA+BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					313,
+					1,
+					"insert",
+					{
+						"characters": ")"
+					},
+					"AQAAAD8FAAAAAAAAQAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPwUAAAAAAAA/BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					317,
+					1,
+					"left_delete",
+					null,
+					"AQAAADwFAAAAAAAAPAUAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAPQUAAAAAAAA9BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					321,
+					1,
+					"insert",
+					{
+						"characters": "r"
+					},
+					"AQAAAJgCAAAAAAAAmQIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmAIAAAAAAACYAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					340,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAMHAAAAAAAAAwcAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAABAcAAAAAAAAEBwAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "MeshLib.gv",
+			"settings":
+			{
+				"buffer_size": 353,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					2,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAAeAAAAZGlncmFwaCBNZXNoTGliIHsgTWVzaExpYjsgfSAK",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAeAAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\n\ndig"
+					},
+					"BQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert_completion",
+					{
+						"completion": "digraph ${1:name} {\n\t${2}\n}",
+						"format": "snippet",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "digraph"
+					},
+					"AgAAAAIAAAAAAAAAAgAAAAAAAAADAAAAZGlnAgAAAAAAAAAUAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "MeshLib"
+					},
+					"CAAAAAoAAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAALAAAAAAAAAAQAAABuYW1lCwAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADgAAAAAAAAAAAAAADgAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAEQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACgAAAAAAAAAOAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "\nBuffe"
+					},
+					"BwAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAABsAAAAAAAAAHAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAoGNA"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "Lib"
+					},
+					"AwAAABwAAAAAAAAAHQAAAAAAAAAAAAAAHQAAAAAAAAAeAAAAAAAAAAAAAAAeAAAAAAAAAB8AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHAAAAAAAAAAcAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": " ->"
+					},
+					"AwAAAB8AAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAhAAAAAAAAAAAAAAAhAAAAAAAAACIAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHwAAAAAAAAAfAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": " Mesh"
+					},
+					"BQAAACIAAAAAAAAAIwAAAAAAAAAAAAAAIwAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACUAAAAAAAAAAAAAACUAAAAAAAAAJgAAAAAAAAAAAAAAJgAAAAAAAAAnAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIgAAAAAAAAAiAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"insert_completion",
+					{
+						"completion": "MeshLib",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "MeshLib"
+					},
+					"AgAAACMAAAAAAAAAIwAAAAAAAAAEAAAATWVzaCMAAAAAAAAAKgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJwAAAAAAAAAnAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAACoAAAAAAAAAKwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKgAAAAAAAAAqAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAACsAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAtAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKwAAAAAAAAArAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": "r"
+					},
+					"AgAAABwAAAAAAAAAHQAAAAAAAAAAAAAALQAAAAAAAAAtAAAAAAAAAAEAAAAJ",
+					"AQAAAAAAAAABAAAAHAAAAAAAAAAcAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"reindent",
+					null,
+					"AQAAAC0AAAAAAAAALgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAACRA"
+				],
+				[
+					23,
+					1,
+					"insert",
+					{
+						"characters": "CallTrace"
+					},
+					"CQAAAC4AAAAAAAAALwAAAAAAAAAAAAAALwAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADEAAAAAAAAAAAAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAANQAAAAAAAAAAAAAANQAAAAAAAAA2AAAAAAAAAAAAAAA2AAAAAAAAADcAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALgAAAAAAAAAuAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": " ->"
+					},
+					"AwAAADcAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA5AAAAAAAAAAAAAAA5AAAAAAAAADoAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANwAAAAAAAAA3AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": " Bu"
+					},
+					"AwAAADoAAAAAAAAAOwAAAAAAAAAAAAAAOwAAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAAD0AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOgAAAAAAAAA6AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					26,
+					1,
+					"insert_completion",
+					{
+						"completion": "BufferLib",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "BufferLib"
+					},
+					"AgAAADsAAAAAAAAAOwAAAAAAAAACAAAAQnU7AAAAAAAAAEQAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPQAAAAAAAAA9AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAAEQAAAAAAAAARQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "\nHPL"
+					},
+					"BQAAAEUAAAAAAAAARgAAAAAAAAAAAAAARgAAAAAAAABHAAAAAAAAAAAAAABHAAAAAAAAAEgAAAAAAAAAAAAAAEgAAAAAAAAASQAAAAAAAAAAAAAASQAAAAAAAABKAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARQAAAAAAAABFAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEkAAAAAAAAASQAAAAAAAAABAAAATA",
+					"AQAAAAAAAAABAAAASgAAAAAAAABKAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": "ML"
+					},
+					"AgAAAEkAAAAAAAAASgAAAAAAAAAAAAAASgAAAAAAAABLAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASQAAAAAAAABJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					31,
+					1,
+					"insert",
+					{
+						"characters": " ->"
+					},
+					"AwAAAEsAAAAAAAAATAAAAAAAAAAAAAAATAAAAAAAAABNAAAAAAAAAAAAAABNAAAAAAAAAE4AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASwAAAAAAAABLAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": " Bu"
+					},
+					"AwAAAE4AAAAAAAAATwAAAAAAAAAAAAAATwAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAFEAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATgAAAAAAAABOAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					2,
+					"left_delete",
+					null,
+					"AgAAAFAAAAAAAAAAUAAAAAAAAAABAAAAdU8AAAAAAAAATwAAAAAAAAABAAAAQg",
+					"AQAAAAAAAAABAAAAUQAAAAAAAABRAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					38,
+					1,
+					"insert",
+					{
+						"characters": "MeshLib"
+					},
+					"CAAAADsAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAAA8AAAAAAAAAAkAAABCdWZmZXJMaWI8AAAAAAAAAD0AAAAAAAAAAAAAAD0AAAAAAAAAPgAAAAAAAAAAAAAAPgAAAAAAAAA/AAAAAAAAAAAAAAA/AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAQQAAAAAAAAAAAAAAQQAAAAAAAABCAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOwAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"insert",
+					{
+						"characters": "Me"
+					},
+					"AgAAAE0AAAAAAAAATgAAAAAAAAAAAAAATgAAAAAAAABPAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATQAAAAAAAABNAAAAAAAAAAAAAAAAYG9A"
+				],
+				[
+					41,
+					1,
+					"insert_completion",
+					{
+						"completion": "MeshLib",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "MeshLib"
+					},
+					"AgAAAE0AAAAAAAAATQAAAAAAAAACAAAATWVNAAAAAAAAAFQAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATwAAAAAAAABPAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					42,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAAFQAAAAAAAAAVQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVAAAAAAAAABUAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					43,
+					1,
+					"insert",
+					{
+						"characters": "\nTep"
+					},
+					"BQAAAFUAAAAAAAAAVgAAAAAAAAAAAAAAVgAAAAAAAABXAAAAAAAAAAAAAABXAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAWQAAAAAAAAAAAAAAWQAAAAAAAABaAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVQAAAAAAAABVAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					44,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFkAAAAAAAAAWQAAAAAAAAABAAAAcA",
+					"AQAAAAAAAAABAAAAWgAAAAAAAABaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": "mplateSystem"
+					},
+					"DAAAAFkAAAAAAAAAWgAAAAAAAAAAAAAAWgAAAAAAAABbAAAAAAAAAAAAAABbAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAXQAAAAAAAAAAAAAAXQAAAAAAAABeAAAAAAAAAAAAAABeAAAAAAAAAF8AAAAAAAAAAAAAAF8AAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABhAAAAAAAAAAAAAABhAAAAAAAAAGIAAAAAAAAAAAAAAGIAAAAAAAAAYwAAAAAAAAAAAAAAYwAAAAAAAABkAAAAAAAAAAAAAABkAAAAAAAAAGUAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWQAAAAAAAABZAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					46,
+					1,
+					"insert",
+					{
+						"characters": " ->"
+					},
+					"AwAAAGUAAAAAAAAAZgAAAAAAAAAAAAAAZgAAAAAAAABnAAAAAAAAAAAAAABnAAAAAAAAAGgAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZQAAAAAAAABlAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					47,
+					1,
+					"insert",
+					{
+						"characters": " MeshL"
+					},
+					"BgAAAGgAAAAAAAAAaQAAAAAAAAAAAAAAaQAAAAAAAABqAAAAAAAAAAAAAABqAAAAAAAAAGsAAAAAAAAAAAAAAGsAAAAAAAAAbAAAAAAAAAAAAAAAbAAAAAAAAABtAAAAAAAAAAAAAABtAAAAAAAAAG4AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAaAAAAAAAAABoAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					48,
+					1,
+					"insert",
+					{
+						"characters": "ib;"
+					},
+					"AwAAAG4AAAAAAAAAbwAAAAAAAAAAAAAAbwAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAHEAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbgAAAAAAAABuAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					50,
+					1,
+					"left_delete",
+					null,
+					"AQAAABQAAAAAAAAAFAAAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAkHNA"
+				],
+				[
+					53,
+					1,
+					"insert",
+					{
+						"characters": "`\t"
+					},
+					"AgAAABQAAAAAAAAAFQAAAAAAAAAAAAAAFQAAAAAAAAAWAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					54,
+					2,
+					"left_delete",
+					null,
+					"AgAAABUAAAAAAAAAFQAAAAAAAAABAAAACRQAAAAAAAAAFAAAAAAAAAABAAAAYA",
+					"AQAAAAAAAAABAAAAFgAAAAAAAAAWAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					55,
+					1,
+					"reindent",
+					null,
+					"AQAAABQAAAAAAAAAFQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					56,
+					1,
+					"insert",
+					{
+						"characters": "\n#include"
+					},
+					"CwAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAAUAAAAAAAAABQAAAAAAAAAAQAAAAkWAAAAAAAAABcAAAAAAAAAAAAAABcAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAABoAAAAAAAAAAAAAABoAAAAAAAAAGwAAAAAAAAAAAAAAGwAAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAAB0AAAAAAAAAAAAAAB0AAAAAAAAAHgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					57,
+					1,
+					"insert",
+					{
+						"characters": " <d"
+					},
+					"AwAAAB4AAAAAAAAAHwAAAAAAAAAAAAAAHwAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACEAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHgAAAAAAAAAeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					58,
+					1,
+					"insert",
+					{
+						"characters": "ependencies/"
+					},
+					"DAAAACEAAAAAAAAAIgAAAAAAAAAAAAAAIgAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAJQAAAAAAAAAAAAAAJQAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAApAAAAAAAAAAAAAAApAAAAAAAAACoAAAAAAAAAAAAAACoAAAAAAAAAKwAAAAAAAAAAAAAAKwAAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAAC0AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIQAAAAAAAAAhAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					59,
+					1,
+					"insert",
+					{
+						"characters": "BufferLib/"
+					},
+					"CgAAAC0AAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAvAAAAAAAAAAAAAAAvAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAAMQAAAAAAAAAAAAAAMQAAAAAAAAAyAAAAAAAAAAAAAAAyAAAAAAAAADMAAAAAAAAAAAAAADMAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA1AAAAAAAAAAAAAAA1AAAAAAAAADYAAAAAAAAAAAAAADYAAAAAAAAANwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					60,
+					1,
+					"insert",
+					{
+						"characters": "="
+					},
+					"AQAAADcAAAAAAAAAOAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANwAAAAAAAAA3AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					61,
+					2,
+					"left_delete",
+					null,
+					"AgAAADcAAAAAAAAANwAAAAAAAAABAAAAPTYAAAAAAAAANgAAAAAAAAABAAAALw",
+					"AQAAAAAAAAABAAAAOAAAAAAAAAA4AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					62,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAADYAAAAAAAAANwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANgAAAAAAAAA2AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					63,
+					1,
+					"left_delete",
+					null,
+					"AQAAADYAAAAAAAAANgAAAAAAAAABAAAALw",
+					"AQAAAAAAAAABAAAANwAAAAAAAAA3AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					64,
+					1,
+					"insert",
+					{
+						"characters": ">"
+					},
+					"AQAAADYAAAAAAAAANwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANgAAAAAAAAA2AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					65,
+					1,
+					"left_delete",
+					null,
+					"AQAAADYAAAAAAAAANgAAAAAAAAABAAAAPg",
+					"AQAAAAAAAAABAAAANwAAAAAAAAA3AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					66,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAADYAAAAAAAAANwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANgAAAAAAAAA2AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					67,
+					1,
+					"insert",
+					{
+						"characters": "BufferLib.g"
+					},
+					"CwAAADcAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA5AAAAAAAAAAAAAAA5AAAAAAAAADoAAAAAAAAAAAAAADoAAAAAAAAAOwAAAAAAAAAAAAAAOwAAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAAD0AAAAAAAAAAAAAAD0AAAAAAAAAPgAAAAAAAAAAAAAAPgAAAAAAAAA/AAAAAAAAAAAAAAA/AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAQQAAAAAAAAAAAAAAQQAAAAAAAABCAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANwAAAAAAAAA3AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					68,
+					1,
+					"insert",
+					{
+						"characters": "v>"
+					},
+					"AgAAAEIAAAAAAAAAQwAAAAAAAAAAAAAAQwAAAAAAAABEAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQgAAAAAAAABCAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					69,
+					1,
+					"insert",
+					{
+						"characters": "\n#incl"
+					},
+					"BwAAAEQAAAAAAAAARQAAAAAAAAAAAAAARQAAAAAAAABGAAAAAAAAAAAAAABGAAAAAAAAAEcAAAAAAAAAAAAAAEcAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABJAAAAAAAAAAAAAABJAAAAAAAAAEoAAAAAAAAAAAAAAEoAAAAAAAAASwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					70,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEoAAAAAAAAASgAAAAAAAAABAAAAbA",
+					"AQAAAAAAAAABAAAASwAAAAAAAABLAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					71,
+					1,
+					"insert",
+					{
+						"characters": "lude"
+					},
+					"BAAAAEoAAAAAAAAASwAAAAAAAAAAAAAASwAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAE0AAAAAAAAAAAAAAE0AAAAAAAAATgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASgAAAAAAAABKAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					72,
+					1,
+					"insert",
+					{
+						"characters": " <dependen"
+					},
+					"CgAAAE4AAAAAAAAATwAAAAAAAAAAAAAATwAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAFEAAAAAAAAAAAAAAFEAAAAAAAAAUgAAAAAAAAAAAAAAUgAAAAAAAABTAAAAAAAAAAAAAABTAAAAAAAAAFQAAAAAAAAAAAAAAFQAAAAAAAAAVQAAAAAAAAAAAAAAVQAAAAAAAABWAAAAAAAAAAAAAABWAAAAAAAAAFcAAAAAAAAAAAAAAFcAAAAAAAAAWAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATgAAAAAAAABOAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					73,
+					1,
+					"insert",
+					{
+						"characters": "cies/CallT"
+					},
+					"CgAAAFgAAAAAAAAAWQAAAAAAAAAAAAAAWQAAAAAAAABaAAAAAAAAAAAAAABaAAAAAAAAAFsAAAAAAAAAAAAAAFsAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABdAAAAAAAAAAAAAABdAAAAAAAAAF4AAAAAAAAAAAAAAF4AAAAAAAAAXwAAAAAAAAAAAAAAXwAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGEAAAAAAAAAAAAAAGEAAAAAAAAAYgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWAAAAAAAAABYAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					74,
+					1,
+					"insert",
+					{
+						"characters": "race/Call"
+					},
+					"CQAAAGIAAAAAAAAAYwAAAAAAAAAAAAAAYwAAAAAAAABkAAAAAAAAAAAAAABkAAAAAAAAAGUAAAAAAAAAAAAAAGUAAAAAAAAAZgAAAAAAAAAAAAAAZgAAAAAAAABnAAAAAAAAAAAAAABnAAAAAAAAAGgAAAAAAAAAAAAAAGgAAAAAAAAAaQAAAAAAAAAAAAAAaQAAAAAAAABqAAAAAAAAAAAAAABqAAAAAAAAAGsAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYgAAAAAAAABiAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					75,
+					1,
+					"insert",
+					{
+						"characters": "t"
+					},
+					"AQAAAGsAAAAAAAAAbAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAawAAAAAAAABrAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					76,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGsAAAAAAAAAawAAAAAAAAABAAAAdA",
+					"AQAAAAAAAAABAAAAbAAAAAAAAABsAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					77,
+					1,
+					"insert",
+					{
+						"characters": "Trace.gv>"
+					},
+					"CQAAAGsAAAAAAAAAbAAAAAAAAAAAAAAAbAAAAAAAAABtAAAAAAAAAAAAAABtAAAAAAAAAG4AAAAAAAAAAAAAAG4AAAAAAAAAbwAAAAAAAAAAAAAAbwAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAHEAAAAAAAAAAAAAAHEAAAAAAAAAcgAAAAAAAAAAAAAAcgAAAAAAAABzAAAAAAAAAAAAAABzAAAAAAAAAHQAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAawAAAAAAAABrAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					78,
+					1,
+					"insert",
+					{
+						"characters": "\n#include"
+					},
+					"CgAAAHQAAAAAAAAAdQAAAAAAAAAAAAAAdQAAAAAAAAB2AAAAAAAAAAAAAAB2AAAAAAAAAHcAAAAAAAAAAAAAAHcAAAAAAAAAeAAAAAAAAAAAAAAAeAAAAAAAAAB5AAAAAAAAAAAAAAB5AAAAAAAAAHoAAAAAAAAAAAAAAHoAAAAAAAAAewAAAAAAAAAAAAAAewAAAAAAAAB8AAAAAAAAAAAAAAB8AAAAAAAAAH0AAAAAAAAAAAAAAH0AAAAAAAAAfgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdAAAAAAAAAB0AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					79,
+					1,
+					"insert",
+					{
+						"characters": " <depe"
+					},
+					"BgAAAH4AAAAAAAAAfwAAAAAAAAAAAAAAfwAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAIEAAAAAAAAAAAAAAIEAAAAAAAAAggAAAAAAAAAAAAAAggAAAAAAAACDAAAAAAAAAAAAAACDAAAAAAAAAIQAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAfgAAAAAAAAB+AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					80,
+					1,
+					"insert",
+					{
+						"characters": "ndencies/HPML/"
+					},
+					"DgAAAIQAAAAAAAAAhQAAAAAAAAAAAAAAhQAAAAAAAACGAAAAAAAAAAAAAACGAAAAAAAAAIcAAAAAAAAAAAAAAIcAAAAAAAAAiAAAAAAAAAAAAAAAiAAAAAAAAACJAAAAAAAAAAAAAACJAAAAAAAAAIoAAAAAAAAAAAAAAIoAAAAAAAAAiwAAAAAAAAAAAAAAiwAAAAAAAACMAAAAAAAAAAAAAACMAAAAAAAAAI0AAAAAAAAAAAAAAI0AAAAAAAAAjgAAAAAAAAAAAAAAjgAAAAAAAACPAAAAAAAAAAAAAACPAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAkQAAAAAAAAAAAAAAkQAAAAAAAACSAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhAAAAAAAAACEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					81,
+					1,
+					"insert",
+					{
+						"characters": "HPML.gv>"
+					},
+					"CAAAAJIAAAAAAAAAkwAAAAAAAAAAAAAAkwAAAAAAAACUAAAAAAAAAAAAAACUAAAAAAAAAJUAAAAAAAAAAAAAAJUAAAAAAAAAlgAAAAAAAAAAAAAAlgAAAAAAAACXAAAAAAAAAAAAAACXAAAAAAAAAJgAAAAAAAAAAAAAAJgAAAAAAAAAmQAAAAAAAAAAAAAAmQAAAAAAAACaAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkgAAAAAAAACSAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					82,
+					1,
+					"insert",
+					{
+						"characters": "\n#include"
+					},
+					"CgAAAJoAAAAAAAAAmwAAAAAAAAAAAAAAmwAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAJ0AAAAAAAAAAAAAAJ0AAAAAAAAAngAAAAAAAAAAAAAAngAAAAAAAACfAAAAAAAAAAAAAACfAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAAoQAAAAAAAAAAAAAAoQAAAAAAAACiAAAAAAAAAAAAAACiAAAAAAAAAKMAAAAAAAAAAAAAAKMAAAAAAAAApAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmgAAAAAAAACaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					83,
+					1,
+					"insert",
+					{
+						"characters": " <depend"
+					},
+					"CAAAAKQAAAAAAAAApQAAAAAAAAAAAAAApQAAAAAAAACmAAAAAAAAAAAAAACmAAAAAAAAAKcAAAAAAAAAAAAAAKcAAAAAAAAAqAAAAAAAAAAAAAAAqAAAAAAAAACpAAAAAAAAAAAAAACpAAAAAAAAAKoAAAAAAAAAAAAAAKoAAAAAAAAAqwAAAAAAAAAAAAAAqwAAAAAAAACsAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApAAAAAAAAACkAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					84,
+					1,
+					"insert",
+					{
+						"characters": "encies/Templa"
+					},
+					"DQAAAKwAAAAAAAAArQAAAAAAAAAAAAAArQAAAAAAAACuAAAAAAAAAAAAAACuAAAAAAAAAK8AAAAAAAAAAAAAAK8AAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAACxAAAAAAAAAAAAAACxAAAAAAAAALIAAAAAAAAAAAAAALIAAAAAAAAAswAAAAAAAAAAAAAAswAAAAAAAAC0AAAAAAAAAAAAAAC0AAAAAAAAALUAAAAAAAAAAAAAALUAAAAAAAAAtgAAAAAAAAAAAAAAtgAAAAAAAAC3AAAAAAAAAAAAAAC3AAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAuQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArAAAAAAAAACsAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					85,
+					1,
+					"insert",
+					{
+						"characters": "teSystem/"
+					},
+					"CQAAALkAAAAAAAAAugAAAAAAAAAAAAAAugAAAAAAAAC7AAAAAAAAAAAAAAC7AAAAAAAAALwAAAAAAAAAAAAAALwAAAAAAAAAvQAAAAAAAAAAAAAAvQAAAAAAAAC+AAAAAAAAAAAAAAC+AAAAAAAAAL8AAAAAAAAAAAAAAL8AAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADBAAAAAAAAAAAAAADBAAAAAAAAAMIAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuQAAAAAAAAC5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					86,
+					1,
+					"insert",
+					{
+						"characters": "TemplateSystem."
+					},
+					"DwAAAMIAAAAAAAAAwwAAAAAAAAAAAAAAwwAAAAAAAADEAAAAAAAAAAAAAADEAAAAAAAAAMUAAAAAAAAAAAAAAMUAAAAAAAAAxgAAAAAAAAAAAAAAxgAAAAAAAADHAAAAAAAAAAAAAADHAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAyQAAAAAAAAAAAAAAyQAAAAAAAADKAAAAAAAAAAAAAADKAAAAAAAAAMsAAAAAAAAAAAAAAMsAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAADNAAAAAAAAAAAAAADNAAAAAAAAAM4AAAAAAAAAAAAAAM4AAAAAAAAAzwAAAAAAAAAAAAAAzwAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAANEAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwgAAAAAAAADCAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					87,
+					1,
+					"insert",
+					{
+						"characters": "gv>"
+					},
+					"AwAAANEAAAAAAAAA0gAAAAAAAAAAAAAA0gAAAAAAAADTAAAAAAAAAAAAAADTAAAAAAAAANQAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0QAAAAAAAADRAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					89,
+					1,
+					"left_delete",
+					null,
+					"AQAAABMAAAAAAAAAEwAAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAmINA"
+				],
+				[
+					94,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAANUAAAAAAAAA1gAAAAAAAAAAAAAA1gAAAAAAAADXAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1QAAAAAAAADVAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					96,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAEVA"
+				],
+				[
+					98,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAEVA"
+				],
+				[
+					100,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AgAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFwAAAAAAAAAXAAAAAAAAAAEAAAAJ",
+					"AQAAAAAAAAABAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAEVA"
+				],
+				[
+					101,
+					1,
+					"left_delete",
+					null,
+					"AQAAABUAAAAAAAAAFQAAAAAAAAABAAAAIw",
+					"AQAAAAAAAAABAAAAFgAAAAAAAAAWAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					102,
+					1,
+					"insert",
+					{
+						"characters": "\n#define"
+					},
+					"CQAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAABsAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB4AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					103,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAB4AAAAAAAAAHwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHgAAAAAAAAAeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					104,
+					1,
+					"insert",
+					{
+						"characters": "digraph"
+					},
+					"BwAAAB8AAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAhAAAAAAAAAAAAAAAhAAAAAAAAACIAAAAAAAAAAAAAACIAAAAAAAAAIwAAAAAAAAAAAAAAIwAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACUAAAAAAAAAAAAAACUAAAAAAAAAJgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHwAAAAAAAAAfAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					105,
+					1,
+					"insert",
+					{
+						"characters": " subgraph"
+					},
+					"CQAAACYAAAAAAAAAJwAAAAAAAAAAAAAAJwAAAAAAAAAoAAAAAAAAAAAAAAAoAAAAAAAAACkAAAAAAAAAAAAAACkAAAAAAAAAKgAAAAAAAAAAAAAAKgAAAAAAAAArAAAAAAAAAAAAAAArAAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAuAAAAAAAAAAAAAAAuAAAAAAAAAC8AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJgAAAAAAAAAmAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					107,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAPIAAAAAAAAA8wAAAAAAAAAAAAAA8wAAAAAAAAD0AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8gAAAAAAAADyAAAAAAAAAAAAAAAAQHJA"
+				],
+				[
+					109,
+					1,
+					"insert",
+					{
+						"characters": "\n#undef"
+					},
+					"CQAAAPIAAAAAAAAA8wAAAAAAAAAAAAAA8wAAAAAAAAD0AAAAAAAAAAAAAAD1AAAAAAAAAPUAAAAAAAAAAQAAAAn0AAAAAAAAAPUAAAAAAAAAAAAAAPUAAAAAAAAA9gAAAAAAAAAAAAAA9gAAAAAAAAD3AAAAAAAAAAAAAAD3AAAAAAAAAPgAAAAAAAAAAAAAAPgAAAAAAAAA+QAAAAAAAAAAAAAA+QAAAAAAAAD6AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8gAAAAAAAADyAAAAAAAAAAAAAAAAAEVA"
+				],
+				[
+					110,
+					1,
+					"insert",
+					{
+						"characters": " digraph"
+					},
+					"CAAAAPoAAAAAAAAA+wAAAAAAAAAAAAAA+wAAAAAAAAD8AAAAAAAAAAAAAAD8AAAAAAAAAP0AAAAAAAAAAAAAAP0AAAAAAAAA/gAAAAAAAAAAAAAA/gAAAAAAAAD/AAAAAAAAAAAAAAD/AAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAQEAAAAAAAAAAAAAAQEAAAAAAAACAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+gAAAAAAAAD6AAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rena",
+				"LocalVariable: Rename"
+			],
+			[
+				"find in ",
+				"File Manager: Find In Files"
+			],
+			[
+				"termi",
+				"Snippet: Enumeration"
+			],
+			[
+				"new",
+				"File Manager: New File"
+			],
+			[
+				"new file",
+				"File Manager: New File"
+			],
+			[
+				"new ",
+				"File Manager: New File"
+			],
+			[
+				"new f",
+				"File Manager: New File"
+			],
+			[
+				"renam",
+				"LocalVariable: Rename"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Create Method",
+				"Method: Create method after current"
+			],
+			[
+				"create",
+				"Method: Create private method"
+			],
+			[
+				"Rename",
+				"LocalVariable: Rename"
+			],
+			[
+				"rename",
+				"LocalVariable: Rename"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Loa",
+				"LocalVariable: Rename"
+			],
+			[
+				"Char Value",
+				"Char Value"
+			],
+			[
+				"Char",
+				"Char Value"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			],
+			[
+				"make",
+				"Build With: Make"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/MeshLib",
+		"/D/MeshLib/dependencies",
+		"/D/MeshLib/dependencies/BufferLib",
+		"/D/MeshLib/dependencies/BufferLib/dependencies",
+		"/D/MeshLib/include",
+		"/D/MeshLib/include/meshlib",
+		"/D/MeshLib/source"
+	],
+	"file_history":
+	[
+		"/D/MeshLib/source/data_structures.c",
+		"/D/MeshLib/makefile",
+		"/D/MeshLib/Design.txt",
+		"/D/MeshLib/include/meshlib/data_structures.h",
+		"/D/MeshLib/source/main.c",
+		"/D/MeshLib/MeshLib.gv",
+		"/D/MeshLib/MeshLib.sublime-project",
+		"/D/TemplateRepository/makefile",
+		"/D/MeshLib/MeshLib.i",
+		"/D/MeshLib/HPML.gv",
+		"/D/MeshLib/TemplateSystem.gv",
+		"/D/MeshLib/BufferLib.gv",
+		"/C/Users/rp041/Downloads/Compressed/filepp-1.8.0/filepp-1.8.0/Makefile",
+		"/C/Users/rp041/Downloads/Compressed/filepp-1.8.0/filepp-1.8.0/INSTALL",
+		"/D/m4/README",
+		"/D/MeshLib/dependencies/BufferLib/include/buffer.h",
+		"/D/MeshLib/dependencies/BufferLib/source/buffer.c",
+		"/D/MeshLib/meshlib/data_structures.h",
+		"/D/MeshLib/source/data_structures.h",
+		"/D/VulkanRenderer/include/engine/mesh.h",
+		"/D/MeshLib/meshlib/writers/obj.h",
+		"/D/MeshLib/meshlib/writers/stl.h",
+		"/D/MeshLib/meshlib/readers/obj.h",
+		"/D/MeshLib/meshlib/readers/stl.h",
+		"/D/MeshLib/meshlib/algorithms.h",
+		"/D/MeshLib/mesh_lib/data_structures.h",
+		"/D/TemplateRepository/include/debug.h",
+		"/D/TemplateRepository/include/defines.h",
+		"/D/VulkanRenderer/source/vulkan_wrapper.c",
+		"/D/VulkanRenderer/include/memory_allocator/memory_allocator.h",
+		"/D/VulkanRenderer/include/memory_allocator/template_instantiations.h",
+		"/D/VulkanRenderer/source/engine.c",
+		"/D/VulkanRenderer/source/memory_allocator.c",
+		"/D/VulkanRenderer/include/memory_allocator/template_definitions.h",
+		"/D/VulkanRenderer/makefile",
+		"/D/VulkanRenderer/source/main.c",
+		"/D/VulkanRenderer/source/renderer.c",
+		"/D/VulkanRenderer/source/string.c",
+		"/D/VulkanRenderer/include/engine/array/template_definitions.h",
+		"/D/VulkanRenderer/source/array.c",
+		"/D/VulkanRenderer/include/memory_allocator.h",
+		"/D/VulkanRenderer/dependencies/SafeMemory/include/safe_memory/safe_memory.h",
+		"/D/VulkanRenderer/dependencies/SafeMemory/include/safe_memory/template_defintions.h",
+		"/D/VulkanRenderer/include/engine/array/template_instantiations.h",
+		"/D/VulkanRenderer/include/garbage_collector/garbage_collector.h",
+		"/D/VulkanRenderer/dependencies/SafeMemory/makefile",
+		"/D/VulkanRenderer/include/vulkan/vulkan_core.h",
+		"/D/VulkanRenderer/source/file_utility.c",
+		"/D/VulkanRenderer/include/vulkan/vulkan_win32.h",
+		"/D/VulkanRenderer/include/engine/array/array.h",
+		"/D/VulkanRenderer/dependencies/SafeMemory/source/safe_memory.c",
+		"/D/VulkanRenderer/source/mesh_renderer.c",
+		"/D/VulkanRenderer/shared-dependencies/BufferLib/makefile",
+		"/D/VulkanRenderer/shared-dependencies/BufferLib/include/buffer.h",
+		"/D/VulkanRenderer/include/buffer.h",
+		"/D/VulkanRenderer/dependencies/SafeMemory/shared-dependencies/CallTrace/include/calltrace.h",
+		"/D/VulkanRenderer/scripts/Square.c",
+		"/D/VulkanRenderer/source/mesh.c",
+		"/D/VulkanRenderer/include/utilities/file_utility.h",
+		"/D/VulkanRenderer/include/engine/renderer/renderer.h",
+		"/D/VulkanRenderer/dependencies/HPML/include/memory/template_definitions.h",
+		"/D/VulkanRenderer/.gitmodules",
+		"/D/VulkanRenderer/include/defines.h",
+		"/D/VulkanRenderer/include/debug.h",
+		"/D/VulkanRenderer/include/vulkan/vulkan_wrapper.h",
+		"/D/VulkanRenderer/dependencies/HPML/include/vec4/template_definitions.h",
+		"/D/VulkanRenderer/.git/config",
+		"/D/VulkanRenderer/dependencies/tgc/Makefile",
+		"/D/VulkanRenderer/dependencies/tgc/LICENSE.md",
+		"/D/VulkanRenderer/dependencies/tgc/tgc.h",
+		"/D/VulkanRenderer/dependencies/HPML/src/main.c",
+		"/D/VulkanRenderer/dependencies/HPML/include/affine_transformation/template_instantiations.h",
+		"/D/VulkanRenderer/dependencies/HPML/include/affine_transformation/template_definitions.h",
+		"/D/VulkanRenderer/dependencies/HPML/include/mat4/template_definitions.h",
+		"/D/VulkanRenderer/trash/matrix.c",
+		"/D/VulkanRenderer/dependencies/HPML/include/exception/exception_declarations.h",
+		"/D/VulkanRenderer/dependencies/HPML/include/exception/exception_definitions.h",
+		"/D/VulkanRenderer/trash",
+		"/D/VulkanRenderer/dependencies/HPML/include/mat4/template_instantiations.h",
+		"/D/VulkanRenderer/shaders/vertexShader.vert",
+		"/D/VulkanRenderer/scripts/MeshTest.c",
+		"/D/VulkanRenderer/include/engine/engine.h",
+		"/D/VulkanRenderer/source/test/test.c",
+		"/D/VulkanRenderer/dependencies/HPML/makefile",
+		"/D/VulkanRenderer/dependencies/HPML/HPML.sublime-workspace",
+		"/F/VulkanRendererMinGW64Project/source/main.c",
+		"/D/VulkanRenderer/source/exception.c",
+		"/D/VulkanRenderer/include/exception/exception_declarations.h",
+		"/D/VulkanRenderer/include/exception/exception_definitions.h",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/TodoReview/TodoReview.sublime-settings",
+		"/D/VulkanRenderer/source/vertices2d",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/MergeVariables.sublime-settings",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/stylelintrc.json",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/terserrc.json",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/beautyshrc.json",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/clangformatrc.yaml",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/eslintrc.json",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/phpcsfixerrc.php",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/jsbeautifyrc.json",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/perltidyrc.cfg",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/yapfrc.yapf",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/cleancssrc.json",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/blackrc.toml",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/rubocoprc.yml",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/prettierrc.json",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/csscombrc.json",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/jsonmaxrc.json",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/htmlminifierrc.json",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/uncrustifyrc.cfg",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/uncrustifyrc_objc.cfg",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/htmltidyrc_xml.cfg",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/formatter.assets/config/htmltidyrc_html.cfg",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/CPrettify/Default (Windows).sublime-keymap",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/CPrettify/CPrettify.sublime-settings",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/CPrettify.sublime-settings",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/CPrettify/user.cfg",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/C99/messages/install.txt",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/C99/C99.sublime-settings",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/C99.sublime-settings",
+		"/D/VulkanRenderer/include/vulkan/vulkan.hpp",
+		"/D/VulkanRenderer/shaders/fragmentShader.frag",
+		"/D/VulkanRenderer/shaders/test/vertexShader.vert",
+		"/D/VulkanRenderer/shaders/test/fragmentShader.frag",
+		"/D/VulkanRenderer/include/vulkan/vulkan_handles.hpp",
+		"/D/VulkanRenderer/include/vulkan/vulkan_structs.hpp",
+		"/C/Users/rp041/AppData/Roaming/Sublime Text/Packages/User/Mariana.sublime-color-scheme",
+		"/C/VulkanSDK/1.2.189.2/Demos/cube.c"
+	],
+	"find":
+	{
+		"height": 37.6
+	},
+	"find_in_files":
+	{
+		"height": 111.2,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"BUFresize",
+			"BUFcreate",
+			"BUFpop"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "makefile",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5646,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								309,
+								309
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "MeshLib.gv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Graphviz/DOT.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.6
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 296.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
+	"project": "MeshLib.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"meshlib",
+				"MeshLib.gv"
+			],
+			[
+				"make",
+				"makefile"
+			],
+			[
+				"buffer.h",
+				"dependencies\\BufferLib\\include\\buffer.h"
+			],
+			[
+				"ma",
+				"makefile"
+			],
+			[
+				"data",
+				"include\\meshlib\\data_structures.h"
+			],
+			[
+				"buffer.c",
+				"dependencies\\BufferLib\\source\\buffer.c"
+			],
+			[
+				"BUFF",
+				"dependencies\\BufferLib\\include\\buffer.h"
+			],
+			[
+				"mai",
+				"source\\main.c"
+			],
+			[
+				"m",
+				"makefile"
+			],
+			[
+				"meshlib/data",
+				"meshlib\\data_structures.h"
+			],
+			[
+				"makf",
+				"makefile"
+			],
+			[
+				"vulkan_wr",
+				"source\\vulkan_wrapper.c"
+			],
+			[
+				"memory",
+				"include\\memory_allocator\\memory_allocator.h"
+			],
+			[
+				"engin",
+				"source\\engine.c"
+			],
+			[
+				"enginc.",
+				"source\\engine.c"
+			],
+			[
+				"vulkan_wra",
+				"source\\vulkan_wrapper.c"
+			],
+			[
+				"vulkan",
+				"include\\vulkan\\vulkan_win32.h"
+			],
+			[
+				"string",
+				"source\\string.c"
+			],
+			[
+				"mainc",
+				"source\\main.c"
+			],
+			[
+				"arr",
+				"include\\engine\\array\\template_instantiations.h"
+			],
+			[
+				"arra",
+				"include\\engine\\array\\template_definitions.h"
+			],
+			[
+				"mak",
+				"makefile"
+			],
+			[
+				"gar",
+				"include\\garbage_collector\\garbage_collector.h"
+			],
+			[
+				"ren",
+				"source\\renderer.c"
+			],
+			[
+				"Squ",
+				"scripts\\Square.c"
+			],
+			[
+				"me",
+				"source\\mesh.c"
+			],
+			[
+				"MeshRe",
+				"source\\mesh_renderer.c"
+			],
+			[
+				"file",
+				"include\\utilities\\file_utility.h"
+			],
+			[
+				"safe",
+				"dependencies\\SafeMemory\\include\\safe_memory\\safe_memory.h"
+			],
+			[
+				"calltra",
+				"dependencies\\SafeMemory\\shared-dependencies\\CallTrace\\include\\calltrace.h"
+			],
+			[
+				"define",
+				"include\\defines.h"
+			],
+			[
+				"de",
+				"include\\debug.h"
+			],
+			[
+				"debug",
+				"include\\debug.h"
+			],
+			[
+				"string.c",
+				"source\\string.c"
+			],
+			[
+				"engine.c",
+				"source\\engine.c"
+			],
+			[
+				"makefile",
+				"makefile"
+			],
+			[
+				"renderer.h",
+				"include\\engine\\renderer\\renderer.h"
+			],
+			[
+				".git",
+				".gitmodules"
+			],
+			[
+				"affine",
+				"dependencies\\HPML\\include\\affine_transformation\\template_instantiations.h"
+			],
+			[
+				"aff",
+				"dependencies\\HPML\\include\\affine_transformation\\template_definitions.h"
+			],
+			[
+				"mat4/template",
+				"dependencies\\HPML\\include\\mat4\\template_instantiations.h"
+			],
+			[
+				"mat4",
+				"dependencies\\HPML\\include\\mat4\\template_definitions.h"
+			],
+			[
+				"vertex",
+				"shaders\\vertexShader.vert"
+			],
+			[
+				"engine.h",
+				"include\\engine\\engine.h"
+			],
+			[
+				"main.",
+				"source\\main.c"
+			],
+			[
+				"engine",
+				"source\\engine.c"
+			],
+			[
+				"ex",
+				"source\\exception.c"
+			],
+			[
+				"rendere.c",
+				"source\\renderer.c"
+			],
+			[
+				"vulkan_wrapper.h",
+				"include\\vulkan\\vulkan_wrapper.h"
+			],
+			[
+				"array\\templ",
+				"include\\engine\\array\\template_definitions.h"
+			],
+			[
+				"ar",
+				"source\\array.c"
+			],
+			[
+				"fil",
+				"source\\file_utility.c"
+			],
+			[
+				"ut",
+				"source\\file_utility.c"
+			],
+			[
+				"string.h",
+				"include\\string\\string.h"
+			],
+			[
+				"renderer.c",
+				"source\\renderer.c"
+			],
+			[
+				"",
+				"C:\\Users\\rp041\\Dropbox\\PlayerController.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\SafeMemory\\SafeMemory.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.4,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}

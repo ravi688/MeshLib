@@ -1,0 +1,25 @@
+#pragma once
+
+digraph MeshLib {
+	
+	#define digraph subgraph
+	#include <BufferLib.gv>
+	#undef digraph
+
+	#define digraph subgraph
+	#include <CallTrace.gv>
+	#undef digraph
+	
+	#define digraph subgraph
+	#include <HPML.gv>
+	#undef digraph
+
+	#define digraph subgraph
+	#include <TemplateSystem.gv>
+	#undef digraph
+
+	BufferLib -> MeshLib;
+	CallTrace -> MeshLib;
+	HPML -> MeshLib;
+	TemplateSystem -> MeshLib;
+}

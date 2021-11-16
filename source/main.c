@@ -49,14 +49,22 @@ int main(int argc, char** argv)
 	BUFFER* stl_data = load_text_from_file("resource/ASCII-box.stl");
 	BUFFER* stl_binary = load_binary_from_file("resource/Binary-box.stl");
 	mesh_t asciiBox = stl_parse_ascii(stl_data->bytes);
-	mesh_t binaryBox = stl_parse_binary(stl_binary->bytes);
+	mesh_t binaryBox = stl_parse_binary(stl_binary->bytes, stl_binary->element_count);
 	BUFFER* normals = asciiBox.user_data;
+	puts("ASCII: ");
 	for(int i = 0; i < buf_get_element_count(normals); i++)
 	{
 		vec3_t(float) normal; 
 		buf_get_at(normals, i, &normal);
-		printf("normal: (%f, %f, %f)\n", normal.x, normal.y, normal.z);
+		printf("\tnormal: (%f, %f, %f)\n", normal.x, normal.y, normal.z);
 		
+	}
+	puts("Binary: ");
+	for(int i = 0; i < buf_get_element_count(binaryBox.user_data); i++)
+	{
+		vec3_t(float) normal; 
+		buf_get_at(binaryBox.user_data, i, &normal);
+		printf("\tnormal: (%f, %f, %f)\n", normal.x, normal.y, normal.z);	
 	}
 
 	write_binary_to_file("Copy-Binary-box.stl", stl_binary->bytes, stl_binary->element_count);

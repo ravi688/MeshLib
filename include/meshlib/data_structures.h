@@ -12,7 +12,9 @@
 
 typedef struct 
 {
+	u64 info;
 	void* user_data;
+	void (*user_free)(void*);
 	BUFFER* vertices;
 } mesh_t;
 

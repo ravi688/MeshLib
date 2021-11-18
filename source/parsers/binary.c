@@ -21,6 +21,7 @@ function_signature(void, binary_parser_skip_bytes, u64 count)
 {
 	CALLTRACE_BEGIN();
 	binded_parser->bytes += count;
+	CALLTRACE_END();
 }
 
 function_signature_void(float, binary_parser_float)

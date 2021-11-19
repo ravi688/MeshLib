@@ -1,6 +1,5 @@
 
 #include <meshlib/obj/readers/binary.h>
-#include <meshlib/assert.h>
 #include <hpml/vec3/header_config.h>
 #include <hpml/vec3/vec3.h>
 #include <hpml/vec2/header_config.h>
@@ -8,6 +7,7 @@
 #include <hpml/vec4/header_config.h>
 #include <hpml/vec4/vec4.h>
 
+#include <meshlib/assert.h>
 
 instantiate_vec4_struct(vec3_t(int));
 
@@ -43,5 +43,5 @@ function_signature(mesh_t, obj_parse_binary, const char* bytes, u64 length)
 
 	// }
 
-	CALLTRACE_RETURN();
+	CALLTRACE_RETURN((mesh_t) { });
 }

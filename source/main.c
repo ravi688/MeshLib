@@ -32,6 +32,9 @@ TODO:
 #include <meshlib/stl/readers/ascii.h>
 #include <meshlib/stl/readers/binary.h>
 
+#include <meshlib/obj/readers/ascii.h>
+#include <meshlib/obj/readers/binary.h>
+
 #include <string.h>
 
 typedef struct 
@@ -71,6 +74,15 @@ int main(int argc, char** argv)
 	buf_free(stl_data);
 	mesh_destroy(asciiBox);
 	mesh_destroy(binaryBox);
+
+	BUFFER* obj_ascii_data = load_text_from_file("resource/Box.obj");
+	mesh_t obj_asciiBox = obj_parse_ascii(obj_ascii_data->bytes, obj_ascii_data->element_count);
+	buf_free(obj_ascii_data);
+
+	// BUFFER* obj_binary_data = load_binary_from_file("resource/Binary-Box.obj");
+	// mesh_t obj_binaryBox = obj_parse_binary(obj_binary_data->bytes, obj_binary_data->element_count);
+	// buf_free(obj_binary_data);
+
 	safe_memory_terminate();
 	return 0;
 }

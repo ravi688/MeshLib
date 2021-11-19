@@ -14,6 +14,7 @@ static void free_normals(void* buffer)
 
 function_signature(mesh_t, stl_parse_binary, const char* bytes, u64 length)
 {
+	CALLTRACE_BEGIN();
 	mesh_t mesh = mesh_new(stl_vertex_t); 
 	mesh.user_free = free_normals;
 	BUFFER* vertices = mesh.vertices;
@@ -34,5 +35,6 @@ function_signature(mesh_t, stl_parse_binary, const char* bytes, u64 length)
 		binary_parser_skip_bytes(sizeof(u16));
 		--triangle_count;
 	}
+	CALLTRACE_END();
 	return mesh;
 }

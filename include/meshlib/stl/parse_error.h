@@ -5,7 +5,7 @@
 #include <calltrace/calltrace.h>
 #include <meshlib/defines.h>
 
-enum STL_PARSE_ERROR
+enum stl_parse_error_t
 {
 	STL_PARSE_ERROR_SOLID_HEADER_NOT_FOUND,
 	STL_PARSE_ERROR_FACET_NOT_FOUND,

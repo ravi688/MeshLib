@@ -1,9 +1,8 @@
 
 #include <meshlib/obj/readers/ascii.h>
 #include <meshlib/obj/parse_error.h>
-#include <meshlib/obj/obj.h>
+#include <meshlib/obj/parse_callbacks.h>
 #include <meshlib/parsers/string.h>
-
 #include <hpml/vec3/header_config.h>
 #include <hpml/vec3/vec3.h>
 #include <hpml/vec4/header_config.h>
@@ -11,33 +10,10 @@
 #include <hpml/vec2/header_config.h>
 #include <hpml/vec2/vec2.h>
 
-instantiate_vec4_struct(vec3_t(int));
-
-static void free_buffer(BUFFER* buffer)
-{
-	buf_free(buffer);
-}
-
-function_signature(mesh_t, obj_parse_ascii, const char* text, u64 length)
+function_signature(void, obj_parse_ascii, const char* text, u64 length, obj_parse_callbacks_t* parse_callbacks)
 {
 	CALLTRACE_BEGIN();
 	string_parser_t p = string_parser_new(text); string_parser_bind(&p);
-	mesh_t mesh = mesh_new(BUFFER);
-	mesh.vertices->free = (void (*)(void*))free_buffer;
-	{
-		BUFFER vertices = buf_create(sizeof(vec3_t(float)), 0, 0);
-		BUFFER texcoords = buf_create(sizeof(vec2_t(float)), 0, 0);
-		BUFFER normals = buf_create(sizeof(vec3_t(float)), 0, 0);
-		BUFFER facets = buf_create(sizeof(vec4_t(vec3_t(int))), 0, 0);
-		buf_push(mesh.vertices, &vertices);
-		buf_push(mesh.vertices, &texcoords);
-		buf_push(mesh.vertices, &normals);
-		buf_push(mesh.vertices, &facets);
-	}
-	BUFFER* vertices = buf_getptr_at(mesh.vertices, 0);
-	BUFFER* texcoords = buf_getptr_at(mesh.vertices, 1);
-	BUFFER* normals = buf_getptr_at(mesh.vertices, 2);
-	BUFFER* facets = buf_getptr_at(mesh.vertices, 3);
 
 	while(string_parser_count() < length)
 	{
@@ -66,22 +42,22 @@ function_signature(mesh_t, obj_parse_ascii, const char* text, u64 length)
 			//Parse vertex
 			case (1 << 1):
 			vec3_t(float) v = { string_parser_float(), string_parser_float(), string_parser_float() };
-			buf_push(vertices, &v);
-			printf("Vertex: (%f, %f, %f)\n", v.x, v.y, v.z);
+			if(parse_callbacks->vertex_position_callback != NULL)
+				parse_callbacks->vertex_position_callback(v, parse_callbacks->user_data);
 			break;
 
 			//Parse normal
 			case (1 << 2):
 			vec3_t(float) n = { string_parser_float(), string_parser_float(), string_parser_float() };
-			buf_push(normals, &n);
-			printf("Normal: (%f, %f, %f)\n", n.x, n.y, n.z);
+			if(parse_callbacks->vertex_normal_callback != NULL)
+				parse_callbacks->vertex_normal_callback(n, parse_callbacks->user_data);
 			break;
 			
 			//Parse texcoord
 			case (1 << 3):
 			vec2_t(float) t = { string_parser_float(), string_parser_float() };
-			buf_push(texcoords, &t);
-			printf("TexCoord: (%f, %f)\n", t.x, t.y);
+			if(parse_callbacks->vertex_texcoord_callback != NULL)
+				parse_callbacks->vertex_texcoord_callback(t, parse_callbacks->user_data);
 			break;
 			
 			//Parse facet
@@ -93,13 +69,13 @@ function_signature(mesh_t, obj_parse_ascii, const char* text, u64 length)
 				{ string_parser_u64(), string_parser_u64(), string_parser_u64() },
 				{ string_parser_u64(), string_parser_u64(), string_parser_u64() }
 			};
-			
-			printf("Facet: %d/%d/%d %d/%d/%d %d/%d/%d %d/%d/%d\n", 
-				f.x.x, f.x.y, f.x.z, f.y.x, f.y.y, f.y.z, f.z.x, f.z.y, f.z.z, f.w.x, f.w.y, f.w.z);
+
+			if(parse_callbacks->facet_callback != NULL)
+				parse_callbacks->facet_callback(f, parse_callbacks->user_data);
 			break;
 		}
 	}
 
-	CALLTRACE_RETURN(mesh);
+	CALLTRACE_END();
 }
 

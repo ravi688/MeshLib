@@ -1,25 +1,15 @@
 
 #include <meshlib/stl/readers/ascii.h>
 #include <meshlib/stl/parse_error.h>
-#include <meshlib/stl/stl.h>
+#include <meshlib/stl/parse_callbacks.h>
 #include <meshlib/parsers/string.h>
 #include <meshlib/assert.h>
 #include <hpml/vec3/header_config.h>
 #include <hpml/vec3/vec3.h>
 
-static void free_normals(void* buffer)
-{
-	buf_free(buffer);
-}
-
-function_signature(mesh_t, stl_parse_ascii, const char* text)
+function_signature(void, stl_parse_ascii, const char* text, stl_parse_callbacks_t* parse_callbacks)
 {
 	CALLTRACE_BEGIN();
-	mesh_t mesh = mesh_new(stl_vertex_t);
-	mesh.user_free = free_normals;
-	BUFFER* vertices = mesh.vertices;
-	BUFFER* normals = mesh.user_data = BUFcreate(NULL, sizeof(vec3_t(float)), 0, 0);
-
 	string_parser_t p = string_parser_new(text); string_parser_bind(&p);
 
 	string_parser_skip_any_whitespace();
@@ -39,7 +29,8 @@ function_signature(mesh_t, stl_parse_ascii, const char* text)
 			stl_parse_error(STL_PARSE_ERROR_NORMAL_NOT_FOUND, string_parser_line_count());
 
 		vec3_t(float) normal =  { string_parser_float(), string_parser_float(), string_parser_float() };
-		buf_push(normals, &normal);
+		if(parse_callbacks->vertex_normal_callback != NULL)
+			parse_callbacks->vertex_normal_callback(normal, parse_callbacks->user_data);
 	
 		string_parser_skip_any_whitespace();
 		
@@ -56,11 +47,9 @@ function_signature(mesh_t, stl_parse_ascii, const char* text)
 			if(!string_parser_strcmp("vertex"))
 				stl_parse_error(STL_PARSE_ERROR_VERTEX_NOT_FOUND, string_parser_line_count());
 		
-			stl_vertex_t vertex = 
-			{
-				.position = { string_parser_float(), string_parser_float(), string_parser_float() }
-			};
-			buf_push(vertices, &vertex);
+			vec3_t(float) position = { string_parser_float(), string_parser_float(), string_parser_float() };
+			if(parse_callbacks->vertex_position_callback != NULL)
+				parse_callbacks->vertex_position_callback(position, parse_callbacks->user_data);
 		}
 
 		string_parser_skip_any_whitespace();
@@ -77,6 +66,5 @@ function_signature(mesh_t, stl_parse_ascii, const char* text)
 	}
 
 	CALLTRACE_END();
-	return mesh;
 }
 

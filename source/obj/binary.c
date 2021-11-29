@@ -11,12 +11,7 @@
 
 instantiate_vec4_struct(vec3_t(int));
 
-static void free_buffer(BUFFER* buffer)
-{
-	buf_free(buffer);
-}
-
-function_signature(mesh_t, obj_parse_binary, const char* bytes, u64 length)
+function_signature(void, obj_parse_binary, const char* bytes, u64 length, obj_parse_callbacks_t* parse_callbacks)
 {
 	CALLTRACE_BEGIN();
 	LOG_FETAL_ERR("obj_parse_binary isn't implemented because the standard binary version doesn't exists\n");
@@ -43,5 +38,5 @@ function_signature(mesh_t, obj_parse_binary, const char* bytes, u64 length)
 
 	// }
 
-	CALLTRACE_RETURN((mesh_t) { });
+	CALLTRACE_END();
 }

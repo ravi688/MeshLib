@@ -9,6 +9,7 @@
 
 function_signature(void, stl_parse_binary, const char* bytes, u64 length, stl_parse_callbacks_t* parse_callbacks)
 {
+	CALLTRACE_BEGIN();
 	binary_parser_t p = binary_parser_new(bytes, length); binary_parser_bind(&p);
 	binary_parser_skip_bytes(80);
 	u32 triangle_count = binary_parser_u32(); 

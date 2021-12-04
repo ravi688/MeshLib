@@ -72,7 +72,7 @@ int main(int argc, char** argv)
 		.vertex_normal_callback = print_normal,
 		.vertex_position_callback = print_position
 	};
-	stl_parse_ascii(stl_data->bytes, &stl_callbacks);
+	stl_parse_ascii(stl_data->bytes, stl_data->element_count, &stl_callbacks);
 	stl_parse_binary(stl_binary->bytes, stl_binary->element_count, &stl_callbacks);
 	
 	buf_free(stl_binary);

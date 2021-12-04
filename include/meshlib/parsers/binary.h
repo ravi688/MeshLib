@@ -8,8 +8,8 @@
 typedef struct
 {
 	const char* bytes;
+	const char* origin;
 	u64 length;
-	u64 cursor;
 } binary_parser_t;
 
 

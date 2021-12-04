@@ -66,13 +66,17 @@ int main(int argc, char** argv)
 	safe_memory_init();
 
 	BUFFER* stl_data = load_text_from_file("resource/ASCII-box.stl");
+	u64 length = strlen(stl_data->bytes);
 	BUFFER* stl_binary = load_binary_from_file("resource/Binary-box.stl");
 	stl_parse_callbacks_t stl_callbacks =
 	{
 		.vertex_normal_callback = print_normal,
 		.vertex_position_callback = print_position
 	};
+	puts("STL-ASCII");
 	stl_parse_ascii(stl_data->bytes, stl_data->element_count, &stl_callbacks);
+
+	puts("\nSTL-BINARY");
 	stl_parse_binary(stl_binary->bytes, stl_binary->element_count, &stl_callbacks);
 	
 	buf_free(stl_binary);
@@ -86,6 +90,7 @@ int main(int argc, char** argv)
 		.vertex_texcoord_callback = print_texcoord,
 		.facet_callback = print_facet
 	};
+	puts("\nOBJ-ASCII");
 	obj_parse_ascii(obj_ascii_data->bytes, obj_ascii_data->element_count, &obj_callbacks);
 	buf_free(obj_ascii_data);
 

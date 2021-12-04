@@ -66,7 +66,6 @@ int main(int argc, char** argv)
 	safe_memory_init();
 
 	BUFFER* stl_data = load_text_from_file("resource/ASCII-box.stl");
-	u64 length = strlen(stl_data->bytes);
 	BUFFER* stl_binary = load_binary_from_file("resource/Binary-box.stl");
 	stl_parse_callbacks_t stl_callbacks =
 	{

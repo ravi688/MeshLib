@@ -10,12 +10,14 @@
 #include <hpml/vec2/header_config.h>
 #include <hpml/vec2/vec2.h>
 
+
+//NOTE: param: length also counts null character
 function_signature(void, obj_parse_ascii, const char* text, u64 length, obj_parse_callbacks_t* parse_callbacks)
 {
 	CALLTRACE_BEGIN();
 	string_parser_t p = string_parser_new(text, length); string_parser_bind(&p);
 
-	while(string_parser_count() < length)
+	while(string_parser_count() < (length - 1))
 	{
 		string_parser_skip_any_whitespace();
 		while(string_parser_strcmp("#"))

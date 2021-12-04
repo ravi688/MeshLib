@@ -12,7 +12,7 @@ function_signature(void, stl_parse_binary, const char* bytes, u64 length, stl_pa
 	binary_parser_t p = binary_parser_new(bytes, length); binary_parser_bind(&p);
 	binary_parser_skip_bytes(80);
 	u32 triangle_count = binary_parser_u32(); 
-	while(triangle_count > 0)
+	while((triangle_count > 0) && (binary_parser_count() > 0))
 	{
 		vec3_t(float) normal = { binary_parser_float(), binary_parser_float(), binary_parser_float() };
 		if(parse_callbacks->vertex_normal_callback != NULL)
@@ -26,5 +26,6 @@ function_signature(void, stl_parse_binary, const char* bytes, u64 length, stl_pa
 		binary_parser_skip_bytes(sizeof(u16));
 		--triangle_count;
 	}
+	binary_parser_unbind();
 	CALLTRACE_END();
 }

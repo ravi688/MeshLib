@@ -9,9 +9,10 @@ typedef struct
 {
 	const char* data;
 	const char* origin;
+	u64 length;
 } string_parser_t;
 
-function_signature(string_parser_t, string_parser_new, const char* text);
+function_signature(string_parser_t, string_parser_new, const char* text, u64 length);
 function_signature(void, string_parser_bind, string_parser_t* string_parser);
 function_signature_void(void, string_parser_unbind);
 function_signature_void(void, string_parser_next_line);

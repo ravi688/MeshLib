@@ -13,7 +13,7 @@
 function_signature(void, obj_parse_ascii, const char* text, u64 length, obj_parse_callbacks_t* parse_callbacks)
 {
 	CALLTRACE_BEGIN();
-	string_parser_t p = string_parser_new(text); string_parser_bind(&p);
+	string_parser_t p = string_parser_new(text, length); string_parser_bind(&p);
 
 	while(string_parser_count() < length)
 	{

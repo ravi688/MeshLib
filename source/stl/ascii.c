@@ -7,10 +7,10 @@
 #include <hpml/vec3/header_config.h>
 #include <hpml/vec3/vec3.h>
 
-function_signature(void, stl_parse_ascii, const char* text, stl_parse_callbacks_t* parse_callbacks)
+function_signature(void, stl_parse_ascii, const char* text, u64 length, stl_parse_callbacks_t* parse_callbacks)
 {
 	CALLTRACE_BEGIN();
-	string_parser_t p = string_parser_new(text); string_parser_bind(&p);
+	string_parser_t p = string_parser_new(text, length); string_parser_bind(&p);
 
 	string_parser_skip_any_whitespace();
 

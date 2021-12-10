@@ -77,6 +77,17 @@ function_signature(binary_parser_t, binary_parser_new, const char* bytes, u64 le
  */
 function_signature_void(u64, binary_parser_count);
 
+function_signature(bool, binary_parser_cmp_float, float value);
+function_signature(bool, binary_parser_cmp_s8, s8 value);
+function_signature(bool, binary_parser_cmp_s16, s16 value);
+function_signature(bool, binary_parser_cmp_s32, s32 value);
+function_signature(bool, binary_parser_cmp_s64, s64 value);
+function_signature(bool, binary_parser_cmp_u8, u8 value);
+function_signature(bool, binary_parser_cmp_u16, u16 value);
+function_signature(bool, binary_parser_cmp_u32, u32 value);
+function_signature(bool, binary_parser_cmp_u64, u64 value);
+function_signature(bool, binary_parser_cmp_bytes, void* bytes, u32 count);
+
 /* binary_parser_skip_bytes(u64 count):
  * DESCRIPTION:
  * 		Skips (advances the internal cursor) "count" bytes
@@ -178,3 +189,15 @@ function_signature_void(u64, binary_parser_u64);
 #define binary_parser_u16(...) define_alias_function_void_macro(binary_parser_u16)
 #define binary_parser_u32(...) define_alias_function_void_macro(binary_parser_u32)
 #define binary_parser_u64(...) define_alias_function_void_macro(binary_parser_u64)
+
+#define binary_parser_cmp_float(...) define_alias_function_macro(binary_parser_cmp_float, __VA_ARGS__)
+#define binary_parser_cmp_s8(...) define_alias_function_macro(binary_parser_cmp_s8, __VA_ARGS__)
+#define binary_parser_cmp_s16(...) define_alias_function_macro(binary_parser_cmp_s16, __VA_ARGS__)
+#define binary_parser_cmp_s32(...) define_alias_function_macro(binary_parser_cmp_s32, __VA_ARGS__)
+#define binary_parser_cmp_s64(...) define_alias_function_macro(binary_parser_cmp_s64, __VA_ARGS__)
+#define binary_parser_cmp_u8(...) define_alias_function_macro(binary_parser_cmp_u8, __VA_ARGS__)
+#define binary_parser_cmp_u16(...) define_alias_function_macro(binary_parser_cmp_u16, __VA_ARGS__)
+#define binary_parser_cmp_u32(...) define_alias_function_macro(binary_parser_cmp_u32, __VA_ARGS__)
+#define binary_parser_cmp_u64(...) define_alias_function_macro(binary_parser_cmp_u64, __VA_ARGS__)
+#define binary_parser_cmp_bytes(...) define_alias_function_macro(binary_parser_cmp_bytes, __VA_ARGS__)
+

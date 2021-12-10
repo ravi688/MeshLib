@@ -1,6 +1,7 @@
 
 #include <meshlib/parsers/binary.h>
 #include <meshlib/assert.h>
+#include <memory.h>
 
 static binary_parser_t* binded_parser = NULL;
 
@@ -38,6 +39,87 @@ function_signature_void(u64, binary_parser_count)
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
 	CALLTRACE_RETURN(binded_parser->bytes - binded_parser->origin);
+}
+
+function_signature(bool, binary_parser_cmp_float, float value)
+{
+	bool result = (*(float*)binded_parser->bytes) == value;
+	if(result)
+		CHECK(binded_parser->bytes) += sizeof(float);
+	return result;
+}
+
+function_signature(bool, binary_parser_cmp_s8, s8 value)
+{
+	bool result = (*(s8*)binded_parser->bytes) == value;
+	if(result)
+		CHECK(binded_parser->bytes) += sizeof(s8);
+	return result;
+}
+
+function_signature(bool, binary_parser_cmp_s16, s16 value)
+{
+	bool result = (*(s16*)binded_parser->bytes) == value;
+	if(result)
+		CHECK(binded_parser->bytes) += sizeof(s16);
+	return result;
+}
+
+function_signature(bool, binary_parser_cmp_s32, s32 value)
+{
+	bool result = (*(s32*)binded_parser->bytes) == value;
+	if(result)
+		CHECK(binded_parser->bytes) += sizeof(s32);
+	return result;
+}
+
+function_signature(bool, binary_parser_cmp_s64, s64 value)
+{
+	bool result = (*(s64*)binded_parser->bytes) == value;
+	if(result)
+		CHECK(binded_parser->bytes) += sizeof(s64);
+	return result;
+}
+
+
+function_signature(bool, binary_parser_cmp_u8, u8 value)
+{
+	bool result = (*(u8*)binded_parser->bytes) == value;
+	if(result)
+		CHECK(binded_parser->bytes) += sizeof(u8);
+	return result;
+}
+
+function_signature(bool, binary_parser_cmp_u16, u16 value)
+{
+	bool result = (*(u16*)binded_parser->bytes) == value;
+	if(result)
+		CHECK(binded_parser->bytes) += sizeof(u16);
+	return result;
+}
+
+function_signature(bool, binary_parser_cmp_u32, u32 value)
+{
+	bool result = (*(u32*)binded_parser->bytes) == value;
+	if(result)
+		CHECK(binded_parser->bytes) += sizeof(u32);
+	return result;
+}
+
+function_signature(bool, binary_parser_cmp_u64, u64 value)
+{
+	bool result = (*(u64*)binded_parser->bytes) == value;
+	if(result)
+		CHECK(binded_parser->bytes) += sizeof(u64);
+	return result;
+}
+
+function_signature(bool, binary_parser_cmp_bytes, void* bytes, u32 count)
+{
+	bool result = memcmp(binded_parser->bytes, bytes, count) == 0;
+	if(result)
+		CHECK(binded_parser->bytes) += count;
+	return result;
 }
 
 function_signature(void, binary_parser_skip_bytes, u64 count)

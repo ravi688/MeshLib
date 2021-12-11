@@ -77,6 +77,7 @@ function_signature(binary_parser_t, binary_parser_new, const char* bytes, u64 le
  */
 function_signature_void(u64, binary_parser_count);
 
+function_signature_void(void, binary_parser_rewind);
 function_signature(bool, binary_parser_cmp_float, float value);
 function_signature(bool, binary_parser_cmp_s8, s8 value);
 function_signature(bool, binary_parser_cmp_s16, s16 value);
@@ -190,6 +191,7 @@ function_signature_void(u64, binary_parser_u64);
 #define binary_parser_u32(...) define_alias_function_void_macro(binary_parser_u32)
 #define binary_parser_u64(...) define_alias_function_void_macro(binary_parser_u64)
 
+#define binary_parser_rewind() define_alias_function_void_macro(binary_parser_rewind)
 #define binary_parser_cmp_float(...) define_alias_function_macro(binary_parser_cmp_float, __VA_ARGS__)
 #define binary_parser_cmp_s8(...) define_alias_function_macro(binary_parser_cmp_s8, __VA_ARGS__)
 #define binary_parser_cmp_s16(...) define_alias_function_macro(binary_parser_cmp_s16, __VA_ARGS__)

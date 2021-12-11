@@ -43,83 +43,93 @@ function_signature_void(u64, binary_parser_count)
 
 function_signature(bool, binary_parser_cmp_float, float value)
 {
+	CALLTRACE_BEGIN();
 	bool result = (*(float*)binded_parser->bytes) == value;
 	if(result)
 		CHECK(binded_parser->bytes) += sizeof(float);
-	return result;
+	CALLTRACE_RETURN(result);
 }
 
 function_signature(bool, binary_parser_cmp_s8, s8 value)
 {
+	CALLTRACE_BEGIN();
 	bool result = (*(s8*)binded_parser->bytes) == value;
 	if(result)
 		CHECK(binded_parser->bytes) += sizeof(s8);
-	return result;
+	CALLTRACE_RETURN(result);
 }
 
 function_signature(bool, binary_parser_cmp_s16, s16 value)
 {
+	CALLTRACE_BEGIN();
 	bool result = (*(s16*)binded_parser->bytes) == value;
 	if(result)
 		CHECK(binded_parser->bytes) += sizeof(s16);
-	return result;
+	CALLTRACE_RETURN(result);
 }
 
 function_signature(bool, binary_parser_cmp_s32, s32 value)
 {
+	CALLTRACE_BEGIN();
 	bool result = (*(s32*)binded_parser->bytes) == value;
 	if(result)
 		CHECK(binded_parser->bytes) += sizeof(s32);
-	return result;
+	CALLTRACE_RETURN(result);
 }
 
 function_signature(bool, binary_parser_cmp_s64, s64 value)
 {
+	CALLTRACE_BEGIN();
 	bool result = (*(s64*)binded_parser->bytes) == value;
 	if(result)
 		CHECK(binded_parser->bytes) += sizeof(s64);
-	return result;
+	CALLTRACE_RETURN(result);
 }
 
 
 function_signature(bool, binary_parser_cmp_u8, u8 value)
 {
+	CALLTRACE_BEGIN();
 	bool result = (*(u8*)binded_parser->bytes) == value;
 	if(result)
 		CHECK(binded_parser->bytes) += sizeof(u8);
-	return result;
+	CALLTRACE_RETURN(result);
 }
 
 function_signature(bool, binary_parser_cmp_u16, u16 value)
 {
+	CALLTRACE_BEGIN();
 	bool result = (*(u16*)binded_parser->bytes) == value;
 	if(result)
 		CHECK(binded_parser->bytes) += sizeof(u16);
-	return result;
+	CALLTRACE_RETURN(result);
 }
 
 function_signature(bool, binary_parser_cmp_u32, u32 value)
 {
+	CALLTRACE_BEGIN();
 	bool result = (*(u32*)binded_parser->bytes) == value;
 	if(result)
 		CHECK(binded_parser->bytes) += sizeof(u32);
-	return result;
+	CALLTRACE_RETURN(result);
 }
 
 function_signature(bool, binary_parser_cmp_u64, u64 value)
 {
+	CALLTRACE_BEGIN();
 	bool result = (*(u64*)binded_parser->bytes) == value;
 	if(result)
 		CHECK(binded_parser->bytes) += sizeof(u64);
-	return result;
+	CALLTRACE_RETURN(result);
 }
 
 function_signature(bool, binary_parser_cmp_bytes, void* bytes, u32 count)
 {
+	CALLTRACE_BEGIN();
 	bool result = memcmp(binded_parser->bytes, bytes, count) == 0;
 	if(result)
 		CHECK(binded_parser->bytes) += count;
-	return result;
+	CALLTRACE_RETURN(result);
 }
 
 function_signature(void, binary_parser_skip_bytes, u64 count)

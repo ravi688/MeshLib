@@ -41,6 +41,14 @@ function_signature_void(u64, binary_parser_count)
 	CALLTRACE_RETURN(binded_parser->bytes - binded_parser->origin);
 }
 
+function_signature_void(void, binary_parser_rewind)
+{
+	CALLTRACE_BEGIN();
+	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
+	binded_parser->bytes = binded_parser->origin;
+	CALLTRACE_END();
+}
+
 function_signature(bool, binary_parser_cmp_float, float value)
 {
 	CALLTRACE_BEGIN();

@@ -4,6 +4,10 @@
 #include <meshlib/defines.h>
 #include <calltrace/calltrace.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 typedef struct
 {
 	const char* bytes;
@@ -203,3 +207,6 @@ function_signature_void(u64, binary_parser_u64);
 #define binary_parser_cmp_u64(...) define_alias_function_macro(binary_parser_cmp_u64, __VA_ARGS__)
 #define binary_parser_cmp_bytes(...) define_alias_function_macro(binary_parser_cmp_bytes, __VA_ARGS__)
 
+#ifdef __cplusplus
+}
+#endif

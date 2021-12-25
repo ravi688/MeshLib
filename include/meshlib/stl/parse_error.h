@@ -5,6 +5,11 @@
 #include <calltrace/calltrace.h>
 #include <meshlib/defines.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 enum stl_parse_error_t
 {
 	STL_PARSE_ERROR_SOLID_HEADER_NOT_FOUND,
@@ -23,3 +28,6 @@ enum stl_parse_error_t
 function_signature(void, stl_parse_error, u64 error_type, u64 line_no);
 #define stl_parse_error(...) define_alias_function_macro(stl_parse_error, __VA_ARGS__)
 
+#ifdef __cplusplus
+}
+#endif

@@ -12,9 +12,13 @@
 #define LOG_MSG
 #endif
 
-
-#include <stdio.h>
-#include <stdbool.h>
+#ifdef __cplusplus
+#   include <cstdio>
+#   include <cstdbool>
+#else
+#   include <stdio.h>
+#   include <stdbool.h>
+#endif /*__cplusplus*/
 
 #ifdef LOG_ERR
 #define log_err(...)do {\

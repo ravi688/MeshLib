@@ -1,8 +1,13 @@
 
 #pragma once
 
-#include <stdint.h>
-#include <stdbool.h>
+#ifdef __cplusplus
+#	include <cstdint>
+#	include <cstdbool>
+#else
+#	include <stdint.h>
+#	include <stdbool.h>
+#endif/*__cplusplus*/
 
 typedef uint8_t u8;
 typedef uint16_t u16;

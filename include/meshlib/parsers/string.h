@@ -3,7 +3,17 @@
 
 #include <meshlib/defines.h>
 #include <calltrace/calltrace.h>
-#include <stdbool.h>
+
+#ifdef __cplusplus
+#	include <cstdbool>
+#else
+#	include <stdbool.h>
+#endif
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 
 typedef struct 
 {
@@ -42,3 +52,8 @@ function_signature_void(u64, string_parser_u64);
 #define string_parser_skip_not_digits(...) define_alias_function_void_macro(string_parser_skip_not_digits)
 #define string_parser_u64(...) define_alias_function_void_macro(string_parser_u64)
 #define string_parser_count(...) define_alias_function_void_macro(string_parser_count)
+
+#ifdef __cplusplus
+}
+#endif
+

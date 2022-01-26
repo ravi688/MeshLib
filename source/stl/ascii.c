@@ -4,8 +4,6 @@
 #include <meshlib/stl/parse_callbacks.h>
 #include <meshlib/parsers/string.h>
 #include <meshlib/assert.h>
-#include <hpml/vec3/header_config.h>
-#include <hpml/vec3/vec3.h>
 
 function_signature(void, stl_parse_ascii, const char* text, u64 length, stl_parse_callbacks_t* parse_callbacks)
 {
@@ -28,9 +26,9 @@ function_signature(void, stl_parse_ascii, const char* text, u64 length, stl_pars
 		if(!string_parser_strcmp("normal"))
 			stl_parse_error(STL_PARSE_ERROR_NORMAL_NOT_FOUND, string_parser_line_count());
 
-		vec3_t(float) normal =  { string_parser_float(), string_parser_float(), string_parser_float() };
+		float normal[3] =  { string_parser_float(), string_parser_float(), string_parser_float() };
 		if(parse_callbacks->vertex_normal_callback != NULL)
-			parse_callbacks->vertex_normal_callback(normal, parse_callbacks->user_data);
+			parse_callbacks->vertex_normal_callback(&normal[0], parse_callbacks->user_data);
 	
 		string_parser_skip_any_whitespace();
 		
@@ -47,9 +45,9 @@ function_signature(void, stl_parse_ascii, const char* text, u64 length, stl_pars
 			if(!string_parser_strcmp("vertex"))
 				stl_parse_error(STL_PARSE_ERROR_VERTEX_NOT_FOUND, string_parser_line_count());
 		
-			vec3_t(float) position = { string_parser_float(), string_parser_float(), string_parser_float() };
+			float position[3] = { string_parser_float(), string_parser_float(), string_parser_float() };
 			if(parse_callbacks->vertex_position_callback != NULL)
-				parse_callbacks->vertex_position_callback(position, parse_callbacks->user_data);
+				parse_callbacks->vertex_position_callback(&position[0], parse_callbacks->user_data);
 		}
 
 		string_parser_skip_any_whitespace();

@@ -4,8 +4,6 @@
 #include <meshlib/stl/parse_callbacks.h>
 #include <meshlib/parsers/binary.h>
 #include <meshlib/assert.h>
-#include <hpml/vec3/header_config.h>
-#include <hpml/vec3/vec3.h>
 
 function_signature(void, stl_parse_binary, const char* bytes, u64 length, stl_parse_callbacks_t* parse_callbacks)
 {
@@ -15,14 +13,14 @@ function_signature(void, stl_parse_binary, const char* bytes, u64 length, stl_pa
 	u32 triangle_count = binary_parser_u32(); 
 	while((triangle_count > 0) && (binary_parser_count() < length))
 	{
-		vec3_t(float) normal = { binary_parser_float(), binary_parser_float(), binary_parser_float() };
+		float normal[3] = { binary_parser_float(), binary_parser_float(), binary_parser_float() };
 		if(parse_callbacks->vertex_normal_callback != NULL)
-			parse_callbacks->vertex_normal_callback(normal, parse_callbacks->user_data);
+			parse_callbacks->vertex_normal_callback(&normal[0], parse_callbacks->user_data);
 		for(int i = 0; i < 3; i++)
 		{
-			vec3_t(float) vertex = { binary_parser_float(), binary_parser_float(), binary_parser_float() };
+			float vertex[3] = { binary_parser_float(), binary_parser_float(), binary_parser_float() };
 			if(parse_callbacks->vertex_position_callback != NULL)
-				parse_callbacks->vertex_position_callback(vertex, parse_callbacks->user_data);
+				parse_callbacks->vertex_position_callback(&vertex[0], parse_callbacks->user_data);
 		}
 		binary_parser_skip_bytes(sizeof(u16));
 		--triangle_count;

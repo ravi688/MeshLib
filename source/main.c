@@ -12,15 +12,6 @@ TODO:
 #include <stdio.h>
 #include <calltrace/calltrace.h>
 
-#include <hpml/vec3/header_config.h>
-#include <hpml/vec3/vec3.h>
-
-#include <hpml/vec4/header_config.h>
-#include <hpml/vec4/vec4.h>
-
-#include <hpml/vec2/header_config.h>
-#include <hpml/vec2/vec2.h>
-
 #include <safe_memory/safe_memory.h>
 
 #include <disk_manager/file_reader.h>
@@ -37,28 +28,32 @@ TODO:
 #include <string.h>
 
 
-void print_normal(vec3_t(float) normal, void* ptr)
+void print_normal(float* normal, void* ptr)
 {
-	printf("NORMAL -> (%f, %f, %f)\n", normal.x, normal.y, normal.z);
+	printf("NORMAL -> (%f, %f, %f)\n", normal[0], normal[1], normal[2]);
 }
 
-void print_position(vec3_t(float) position, void* ptr)
+void print_position(float* position, void* ptr)
 {
-	printf("POSITION -> (%f, %f, %f)\n", position.x, position.y, position.z);
+	printf("POSITION -> (%f, %f, %f)\n", position[0], position[1], position[2]);
 }
 
-void print_texcoord(vec2_t(float) texcoord, void* ptr)
+void print_texcoord(float* texcoord, void* ptr)
 {
-	printf("TEXCOORD -> (%f, %f)\n", texcoord.x, texcoord.y);
+	printf("TEXCOORD -> (%f, %f)\n", texcoord[0], texcoord[1]);
 }
 
-void print_facet(vec4_t(vec3_t(int)) facet, void* ptr)
+void print_facet(u32* facet, u32 attrib_count, u32 face_vertex_count, void* ptr)
 {
-	printf("FACET -> (%d, %d, %d) (%d, %d, %d) (%d, %d, %d) (%d, %d, %d)\n",
-		facet.x.x, facet.x.y, facet.x.z,
-		facet.y.x, facet.y.y, facet.y.z,
-		facet.z.x, facet.z.y, facet.z.z,
-		facet.w.x, facet.w.y, facet.w.z);
+	printf("FACET -> ");
+	for(int i = 0; i < face_vertex_count; i++)
+	{
+		printf("(");
+		for(int j = 0; j < attrib_count; j++)
+			printf(" %u", facet[i * attrib_count + j]);
+		printf(" ) ");
+	}
+	puts("");
 }
 
 int main(int argc, char** argv)
@@ -81,7 +76,9 @@ int main(int argc, char** argv)
 	buf_free(stl_binary);
 	buf_free(stl_data);
 
-	BUFFER* obj_ascii_data = load_text_from_file("resource/Box.obj");
+	printf("Value: %d\n", strtoul("\t\t     456///", NULL, 0));
+
+	BUFFER* obj_ascii_data = load_text_from_file("resource/Sphere.obj");
 	obj_parse_callbacks_t obj_callbacks =
 	{
 		.vertex_position_callback = print_position,

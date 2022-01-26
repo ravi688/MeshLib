@@ -55,7 +55,7 @@ function_signature(bool, string_parser_strcmp_word, const char* word)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
-	string_parser_skip_whitespaces();
+	string_parser_skip_any_whitespace();
 	bool result; 
 	const char* word_end = strpbrk(binded_parser->data, " \t\n");
 	u64 length = 0;

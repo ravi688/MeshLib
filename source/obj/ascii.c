@@ -3,12 +3,7 @@
 #include <meshlib/obj/parse_error.h>
 #include <meshlib/obj/parse_callbacks.h>
 #include <meshlib/parsers/string.h>
-#include <hpml/vec3/header_config.h>
-#include <hpml/vec3/vec3.h>
-#include <hpml/vec4/header_config.h>
-#include <hpml/vec4/vec4.h>
-#include <hpml/vec2/header_config.h>
-#include <hpml/vec2/vec2.h>
+#include <stdlib.h>
 
 
 //NOTE: param: length also counts null character
@@ -21,10 +16,7 @@ function_signature(void, obj_parse_ascii, const char* text, u64 length, obj_pars
 	{
 		string_parser_skip_any_whitespace();
 		while(string_parser_strcmp("#"))
-		{
 			string_parser_next_line();
-			string_parser_skip_any_whitespace();
-		}
 		u8 match = 0x00;
 		if(string_parser_strcmp_word("v"))
 			match |= 1 << 1;	
@@ -43,37 +35,55 @@ function_signature(void, obj_parse_ascii, const char* text, u64 length, obj_pars
 
 			//Parse vertex
 			case (1 << 1):
-			vec3_t(float) v = { string_parser_float(), string_parser_float(), string_parser_float() };
+			float v[3] = { string_parser_float(), string_parser_float(), string_parser_float() };
 			if(parse_callbacks->vertex_position_callback != NULL)
-				parse_callbacks->vertex_position_callback(v, parse_callbacks->user_data);
+				parse_callbacks->vertex_position_callback(&v[0], parse_callbacks->user_data);
 			break;
 
 			//Parse normal
 			case (1 << 2):
-			vec3_t(float) n = { string_parser_float(), string_parser_float(), string_parser_float() };
+			float n[3] = { string_parser_float(), string_parser_float(), string_parser_float() };
 			if(parse_callbacks->vertex_normal_callback != NULL)
-				parse_callbacks->vertex_normal_callback(n, parse_callbacks->user_data);
+				parse_callbacks->vertex_normal_callback(&n[0], parse_callbacks->user_data);
 			break;
 			
 			//Parse texcoord
 			case (1 << 3):
-			vec2_t(float) t = { string_parser_float(), string_parser_float() };
+			float t[2] = { string_parser_float(), string_parser_float() };
 			if(parse_callbacks->vertex_texcoord_callback != NULL)
-				parse_callbacks->vertex_texcoord_callback(t, parse_callbacks->user_data);
+				parse_callbacks->vertex_texcoord_callback(&t[0], parse_callbacks->user_data);
 			break;
 			
 			//Parse facet
 			case (1 << 4):
-			vec4_t(vec3_t(int)) f = 
+			u32 facet[16] = { };
+			u32 face_vertex_count = 0;
+			const char* ptr = p.data;
+			u32 value = 0;
+			u32 attrib_count = 0;
+			char* endptr = NULL;
+			u32 prev_attrib_count = 0;
+			while((value = strtoul(ptr, &endptr, 0)))
 			{
-				{ string_parser_u64(), string_parser_u64(), string_parser_u64() },
-				{ string_parser_u64(), string_parser_u64(), string_parser_u64() },
-				{ string_parser_u64(), string_parser_u64(), string_parser_u64() },
-				{ string_parser_u64(), string_parser_u64(), string_parser_u64() }
-			};
-
+				ptr = endptr;
+				facet[prev_attrib_count * face_vertex_count + attrib_count] = value;
+				++attrib_count;
+				if((*ptr) == '/')
+				{
+					while((*ptr) == '/') ptr++;
+					continue;
+				}
+				else if(((*ptr) == ' ') || ((*ptr) == '\t') || ((*ptr) == '\n'))
+				{
+					face_vertex_count++;
+					prev_attrib_count = attrib_count;
+					attrib_count = 0;
+					continue;
+				}
+			}
+			p.data = ptr;
 			if(parse_callbacks->facet_callback != NULL)
-				parse_callbacks->facet_callback(f, parse_callbacks->user_data);
+				parse_callbacks->facet_callback((u32*)facet, prev_attrib_count, face_vertex_count, parse_callbacks->user_data);
 			break;
 		}
 	}

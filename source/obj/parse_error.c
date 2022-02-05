@@ -2,7 +2,7 @@
 #include <meshlib/obj/parse_error.h>
 #include <meshlib/assert.h>
 
-function_signature(void, obj_parse_error, u64 error_type, u64 line_no)
+MESHLIB_API function_signature(void, obj_parse_error, u64 error_type, u64 line_no)
 {
 	CALLTRACE_BEGIN();
 	switch(error_type)

@@ -12,7 +12,7 @@ static binary_parser_t* binded_parser = NULL;
 #endif
 
 #define check(...) define_alias_function_macro(check, __VA_ARGS__)
-function_signature(static const char**, check, const char** ptr)
+static function_signature(const char**, check, const char** ptr)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
@@ -20,10 +20,10 @@ function_signature(static const char**, check, const char** ptr)
 	CALLTRACE_RETURN(ptr);
 }
 
-function_signature(void, binary_parser_bind, binary_parser_t* parser) { CALLTRACE_BEGIN(); binded_parser = parser; CALLTRACE_END(); }
-function_signature_void(void, binary_parser_unbind) { CALLTRACE_BEGIN(); binded_parser = NULL; CALLTRACE_END(); }
+MESHLIB_API function_signature(void, binary_parser_bind, binary_parser_t* parser) { CALLTRACE_BEGIN(); binded_parser = parser; CALLTRACE_END(); }
+MESHLIB_API function_signature_void(void, binary_parser_unbind) { CALLTRACE_BEGIN(); binded_parser = NULL; CALLTRACE_END(); }
 
-function_signature(binary_parser_t, binary_parser_new, const char* bytes, u64 length)
+MESHLIB_API function_signature(binary_parser_t, binary_parser_new, const char* bytes, u64 length)
 {
 	CALLTRACE_BEGIN();
 	CALLTRACE_RETURN((binary_parser_t)
@@ -34,14 +34,14 @@ function_signature(binary_parser_t, binary_parser_new, const char* bytes, u64 le
 	});
 }
 
-function_signature_void(u64, binary_parser_count)
+MESHLIB_API function_signature_void(u64, binary_parser_count)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
 	CALLTRACE_RETURN(binded_parser->bytes - binded_parser->origin);
 }
 
-function_signature_void(void, binary_parser_rewind)
+MESHLIB_API function_signature_void(void, binary_parser_rewind)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
@@ -49,7 +49,7 @@ function_signature_void(void, binary_parser_rewind)
 	CALLTRACE_END();
 }
 
-function_signature(bool, binary_parser_cmp_float, float value)
+MESHLIB_API function_signature(bool, binary_parser_cmp_float, float value)
 {
 	CALLTRACE_BEGIN();
 	bool result = (*(float*)binded_parser->bytes) == value;
@@ -58,7 +58,7 @@ function_signature(bool, binary_parser_cmp_float, float value)
 	CALLTRACE_RETURN(result);
 }
 
-function_signature(bool, binary_parser_cmp_s8, s8 value)
+MESHLIB_API function_signature(bool, binary_parser_cmp_s8, s8 value)
 {
 	CALLTRACE_BEGIN();
 	bool result = (*(s8*)binded_parser->bytes) == value;
@@ -67,7 +67,7 @@ function_signature(bool, binary_parser_cmp_s8, s8 value)
 	CALLTRACE_RETURN(result);
 }
 
-function_signature(bool, binary_parser_cmp_s16, s16 value)
+MESHLIB_API function_signature(bool, binary_parser_cmp_s16, s16 value)
 {
 	CALLTRACE_BEGIN();
 	bool result = (*(s16*)binded_parser->bytes) == value;
@@ -76,7 +76,7 @@ function_signature(bool, binary_parser_cmp_s16, s16 value)
 	CALLTRACE_RETURN(result);
 }
 
-function_signature(bool, binary_parser_cmp_s32, s32 value)
+MESHLIB_API function_signature(bool, binary_parser_cmp_s32, s32 value)
 {
 	CALLTRACE_BEGIN();
 	bool result = (*(s32*)binded_parser->bytes) == value;
@@ -85,7 +85,7 @@ function_signature(bool, binary_parser_cmp_s32, s32 value)
 	CALLTRACE_RETURN(result);
 }
 
-function_signature(bool, binary_parser_cmp_s64, s64 value)
+MESHLIB_API function_signature(bool, binary_parser_cmp_s64, s64 value)
 {
 	CALLTRACE_BEGIN();
 	bool result = (*(s64*)binded_parser->bytes) == value;
@@ -95,7 +95,7 @@ function_signature(bool, binary_parser_cmp_s64, s64 value)
 }
 
 
-function_signature(bool, binary_parser_cmp_u8, u8 value)
+MESHLIB_API function_signature(bool, binary_parser_cmp_u8, u8 value)
 {
 	CALLTRACE_BEGIN();
 	bool result = (*(u8*)binded_parser->bytes) == value;
@@ -104,7 +104,7 @@ function_signature(bool, binary_parser_cmp_u8, u8 value)
 	CALLTRACE_RETURN(result);
 }
 
-function_signature(bool, binary_parser_cmp_u16, u16 value)
+MESHLIB_API function_signature(bool, binary_parser_cmp_u16, u16 value)
 {
 	CALLTRACE_BEGIN();
 	bool result = (*(u16*)binded_parser->bytes) == value;
@@ -113,7 +113,7 @@ function_signature(bool, binary_parser_cmp_u16, u16 value)
 	CALLTRACE_RETURN(result);
 }
 
-function_signature(bool, binary_parser_cmp_u32, u32 value)
+MESHLIB_API function_signature(bool, binary_parser_cmp_u32, u32 value)
 {
 	CALLTRACE_BEGIN();
 	bool result = (*(u32*)binded_parser->bytes) == value;
@@ -122,7 +122,7 @@ function_signature(bool, binary_parser_cmp_u32, u32 value)
 	CALLTRACE_RETURN(result);
 }
 
-function_signature(bool, binary_parser_cmp_u64, u64 value)
+MESHLIB_API function_signature(bool, binary_parser_cmp_u64, u64 value)
 {
 	CALLTRACE_BEGIN();
 	bool result = (*(u64*)binded_parser->bytes) == value;
@@ -131,7 +131,7 @@ function_signature(bool, binary_parser_cmp_u64, u64 value)
 	CALLTRACE_RETURN(result);
 }
 
-function_signature(bool, binary_parser_cmp_bytes, void* bytes, u32 count)
+MESHLIB_API function_signature(bool, binary_parser_cmp_bytes, void* bytes, u32 count)
 {
 	CALLTRACE_BEGIN();
 	bool result = memcmp(binded_parser->bytes, bytes, count) == 0;
@@ -140,7 +140,7 @@ function_signature(bool, binary_parser_cmp_bytes, void* bytes, u32 count)
 	CALLTRACE_RETURN(result);
 }
 
-function_signature(void, binary_parser_skip_bytes, u64 count)
+MESHLIB_API function_signature(void, binary_parser_skip_bytes, u64 count)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
@@ -148,7 +148,7 @@ function_signature(void, binary_parser_skip_bytes, u64 count)
 	CALLTRACE_END();
 }
 
-function_signature_void(float, binary_parser_float)
+MESHLIB_API function_signature_void(float, binary_parser_float)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
@@ -157,7 +157,7 @@ function_signature_void(float, binary_parser_float)
 	CALLTRACE_RETURN(result);
 }
 
-function_signature_void(u8, binary_parser_u8)
+MESHLIB_API function_signature_void(u8, binary_parser_u8)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
@@ -166,7 +166,7 @@ function_signature_void(u8, binary_parser_u8)
 	CALLTRACE_RETURN(result);
 }
 
-function_signature_void(u16, binary_parser_u16)
+MESHLIB_API function_signature_void(u16, binary_parser_u16)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
@@ -175,7 +175,7 @@ function_signature_void(u16, binary_parser_u16)
 	CALLTRACE_RETURN(result);
 }
 
-function_signature_void(u32, binary_parser_u32)
+MESHLIB_API function_signature_void(u32, binary_parser_u32)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
@@ -184,7 +184,7 @@ function_signature_void(u32, binary_parser_u32)
 	CALLTRACE_RETURN(result);
 }
 
-function_signature_void(u64, binary_parser_u64)
+MESHLIB_API function_signature_void(u64, binary_parser_u64)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");

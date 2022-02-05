@@ -7,7 +7,7 @@
 
 
 //NOTE: param: length also counts null character
-function_signature(void, obj_parse_ascii, const char* text, u64 length, obj_parse_callbacks_t* parse_callbacks)
+MESHLIB_API function_signature(void, obj_parse_ascii, const char* text, u64 length, obj_parse_callbacks_t* parse_callbacks)
 {
 	CALLTRACE_BEGIN();
 	string_parser_t p = string_parser_new(text, length); string_parser_bind(&p);

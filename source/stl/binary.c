@@ -5,7 +5,7 @@
 #include <meshlib/parsers/binary.h>
 #include <meshlib/assert.h>
 
-function_signature(void, stl_parse_binary, const char* bytes, u64 length, stl_parse_callbacks_t* parse_callbacks)
+MESHLIB_API function_signature(void, stl_parse_binary, const char* bytes, u64 length, stl_parse_callbacks_t* parse_callbacks)
 {
 	CALLTRACE_BEGIN();
 	binary_parser_t p = binary_parser_new(bytes, length); binary_parser_bind(&p);

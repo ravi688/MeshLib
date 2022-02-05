@@ -29,7 +29,7 @@ typedef struct
  * NOTE:
  * 		You must bind a parser before calling any user functions of that parser 		
  */
-function_signature(void, binary_parser_bind, binary_parser_t* parser);
+MESHLIB_API function_signature(void, binary_parser_bind, binary_parser_t* parser);
 
 /* binary_parser_unbind():
  * DESCRIPTION:
@@ -45,7 +45,7 @@ function_signature(void, binary_parser_bind, binary_parser_t* parser);
  * NOTE:
  * 		You must unbind after you are done. 		
  */
-function_signature_void(void, binary_parser_unbind);
+MESHLIB_API function_signature_void(void, binary_parser_unbind);
 
 /* binary_parser_new(const char* bytes, u64 length)
  * DESCRIPTION:
@@ -64,7 +64,7 @@ function_signature_void(void, binary_parser_unbind);
  * 		1. bytes parameter must point to a valid memory location, otherwise it's behaviour is undefined
  * 		2. length parameter must be less than or equal to the actual memory buffer, otherwise it's behaviour is undefined
  */
-function_signature(binary_parser_t, binary_parser_new, const char* bytes, u64 length);
+MESHLIB_API function_signature(binary_parser_t, binary_parser_new, const char* bytes, u64 length);
 
 /* binary_parser_count():
  * DESCRIPTION:
@@ -79,19 +79,19 @@ function_signature(binary_parser_t, binary_parser_new, const char* bytes, u64 le
  * NOTE:
  * 		1. Before calling this function make sure you have binded a parser, otherwise you will get an error.
  */
-function_signature_void(u64, binary_parser_count);
+MESHLIB_API function_signature_void(u64, binary_parser_count);
 
-function_signature_void(void, binary_parser_rewind);
-function_signature(bool, binary_parser_cmp_float, float value);
-function_signature(bool, binary_parser_cmp_s8, s8 value);
-function_signature(bool, binary_parser_cmp_s16, s16 value);
-function_signature(bool, binary_parser_cmp_s32, s32 value);
-function_signature(bool, binary_parser_cmp_s64, s64 value);
-function_signature(bool, binary_parser_cmp_u8, u8 value);
-function_signature(bool, binary_parser_cmp_u16, u16 value);
-function_signature(bool, binary_parser_cmp_u32, u32 value);
-function_signature(bool, binary_parser_cmp_u64, u64 value);
-function_signature(bool, binary_parser_cmp_bytes, void* bytes, u32 count);
+MESHLIB_API function_signature_void(void, binary_parser_rewind);
+MESHLIB_API function_signature(bool, binary_parser_cmp_float, float value);
+MESHLIB_API function_signature(bool, binary_parser_cmp_s8, s8 value);
+MESHLIB_API function_signature(bool, binary_parser_cmp_s16, s16 value);
+MESHLIB_API function_signature(bool, binary_parser_cmp_s32, s32 value);
+MESHLIB_API function_signature(bool, binary_parser_cmp_s64, s64 value);
+MESHLIB_API function_signature(bool, binary_parser_cmp_u8, u8 value);
+MESHLIB_API function_signature(bool, binary_parser_cmp_u16, u16 value);
+MESHLIB_API function_signature(bool, binary_parser_cmp_u32, u32 value);
+MESHLIB_API function_signature(bool, binary_parser_cmp_u64, u64 value);
+MESHLIB_API function_signature(bool, binary_parser_cmp_bytes, void* bytes, u32 count);
 
 /* binary_parser_skip_bytes(u64 count):
  * DESCRIPTION:
@@ -106,7 +106,7 @@ function_signature(bool, binary_parser_cmp_bytes, void* bytes, u32 count);
  * NOTE:
  * 		1. Before calling this function make sure you have binded a parser, otherwise you will get an error.
  */
-function_signature(void, binary_parser_skip_bytes, u64 count);
+MESHLIB_API function_signature(void, binary_parser_skip_bytes, u64 count);
 
 /* binary_parser_float():
  * DESCRIPTION:
@@ -121,7 +121,7 @@ function_signature(void, binary_parser_skip_bytes, u64 count);
  * NOTE:
  * 		1. Before calling this function make sure you have binded a parser, otherwise you will get an error.
  */
-function_signature_void(float, binary_parser_float);
+MESHLIB_API function_signature_void(float, binary_parser_float);
 
 /* binary_parser_u8():
  * DESCRIPTION:
@@ -136,7 +136,7 @@ function_signature_void(float, binary_parser_float);
  * NOTE:
  * 		1. Before calling this function make sure you have binded a parser, otherwise you will get an error.
  */
-function_signature_void(u8, binary_parser_u8); 
+MESHLIB_API function_signature_void(u8, binary_parser_u8); 
 
 /* binary_parser_u16():
  * DESCRIPTION:
@@ -151,7 +151,7 @@ function_signature_void(u8, binary_parser_u8);
  * NOTE:
  * 		1. Before calling this function make sure you have binded a parser, otherwise you will get an error.
  */
-function_signature_void(u16, binary_parser_u16);
+MESHLIB_API function_signature_void(u16, binary_parser_u16);
 
 /* binary_parser_u32():
  * DESCRIPTION:
@@ -166,7 +166,7 @@ function_signature_void(u16, binary_parser_u16);
  * NOTE:
  * 		1. Before calling this function make sure you have binded a parser, otherwise you will get an error.
  */
-function_signature_void(u32, binary_parser_u32);
+MESHLIB_API function_signature_void(u32, binary_parser_u32);
 
 /* binary_parser_u64():
  * DESCRIPTION:
@@ -181,7 +181,7 @@ function_signature_void(u32, binary_parser_u32);
  * NOTE:
  * 		1. Before calling this function make sure you have binded a parser, otherwise you will get an error.
  */
-function_signature_void(u64, binary_parser_u64);
+MESHLIB_API function_signature_void(u64, binary_parser_u64);
 
 
 #define binary_parser_bind(...) define_alias_function_macro(binary_parser_bind, __VA_ARGS__)

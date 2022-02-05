@@ -71,7 +71,7 @@ typedef struct obj_parse_callbacks_t obj_parse_callbacks_t;
  *      obj_parse_ascii(obj_file_data->bytes, obj_file_data->element_count, &callbacks);
  *		buf_free(obj_file_data);
  */
-function_signature(void, obj_parse_ascii, const char* text, u64 length, obj_parse_callbacks_t* parse_callbacks);
+MESHLIB_API function_signature(void, obj_parse_ascii, const char* text, u64 length, obj_parse_callbacks_t* parse_callbacks);
 #define obj_parse_ascii(...) define_alias_function_macro(obj_parse_ascii, __VA_ARGS__)
 
 

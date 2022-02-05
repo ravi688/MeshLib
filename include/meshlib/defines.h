@@ -1,13 +1,8 @@
 
 #pragma once
 
-#ifdef __cplusplus
-#	include <cstdint>
-#	include <cstdbool>
-#else
-#	include <stdint.h>
-#	include <stdbool.h>
-#endif/*__cplusplus*/
+#include <stdint.h>
+#include <stdbool.h>
 
 typedef uint8_t u8;
 typedef uint16_t u16;
@@ -19,3 +14,12 @@ typedef int16_t s16;
 typedef int32_t s32;
 typedef int64_t s64;
 
+#ifdef MESHLIB_STATIC_LIBRARY
+#	define MESHLIB_API
+#elif MESHLIB_DYNAMIC_LIBRARY
+#	define MESHLIB_API __declspec(dllimport)
+#elif BUILD_DYNAMIC_LIBRARY
+#	define MESHLIB_API __declspec(dllexport)
+#else
+#	define MESHLIB_API
+#endif

@@ -1,5 +1,5 @@
-#ifndef __DEBUG_H__
-#define __DEBUG_H__
+
+#pragma once
 
 #ifndef __PRETTY_FUNCTION__
 #define __PRETTY_FUNCTION__ __FUNCTION__
@@ -12,13 +12,8 @@
 #define LOG_MSG
 #endif
 
-#ifdef __cplusplus
-#   include <cstdio>
-#   include <cstdbool>
-#else
-#   include <stdio.h>
-#   include <stdbool.h>
-#endif /*__cplusplus*/
+#include <stdio.h>
+#include <stdbool.h>
 
 #ifdef LOG_ERR
 #define log_err(...)do {\
@@ -63,4 +58,3 @@
 #define log_msg(...)
 #endif
 
-#endif/*__DEBUG_H__*/

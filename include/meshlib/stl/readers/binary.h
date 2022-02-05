@@ -3,6 +3,7 @@
 
 
 #include <calltrace/calltrace.h>
+#include <meshlib/defines.h>
 
 #ifdef __cplusplus
 extern "C" {
@@ -41,7 +42,7 @@ typedef struct stl_parse_callbacks_t stl_parse_callbacks_t;
  *      stl_parse_binary(stl_file_data->bytes, stl_file_data->element_count, &callbacks);
  *		buf_free(stl_file_data);
  */
-function_signature(void, stl_parse_binary, const char* bytes, u64 length, stl_parse_callbacks_t* parse_callbacks);
+MESHLIB_API function_signature(void, stl_parse_binary, const char* bytes, u64 length, stl_parse_callbacks_t* parse_callbacks);
 #define stl_parse_binary(...) define_alias_function_macro(stl_parse_binary, __VA_ARGS__)
 
 #ifdef __cplusplus

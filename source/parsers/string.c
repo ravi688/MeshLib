@@ -14,7 +14,7 @@ static string_parser_t* binded_parser = NULL;
 #endif
 
 #define check(...) define_alias_function_macro(check, __VA_ARGS__)
-function_signature(static const char**, check, const char** ptr)
+static function_signature(const char**, check, const char** ptr)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
@@ -22,16 +22,16 @@ function_signature(static const char**, check, const char** ptr)
 	CALLTRACE_RETURN(ptr);
 }
 
-function_signature(string_parser_t, string_parser_new, const char* text, u64 length)
+MESHLIB_API function_signature(string_parser_t, string_parser_new, const char* text, u64 length)
 {
 	CALLTRACE_BEGIN();
 	CALLTRACE_RETURN((string_parser_t) { .data = text, .origin = text, .length = length });
 }
 
-function_signature(void, string_parser_bind, string_parser_t* string_parser) { CALLTRACE_BEGIN(); binded_parser = string_parser; CALLTRACE_END(); }
-function_signature_void(void, string_parser_unbind) { CALLTRACE_BEGIN(); binded_parser = NULL;  CALLTRACE_END(); }
+MESHLIB_API function_signature(void, string_parser_bind, string_parser_t* string_parser) { CALLTRACE_BEGIN(); binded_parser = string_parser; CALLTRACE_END(); }
+MESHLIB_API function_signature_void(void, string_parser_unbind) { CALLTRACE_BEGIN(); binded_parser = NULL;  CALLTRACE_END(); }
 
-function_signature(bool, string_parser_chcmp, const char ch)
+MESHLIB_API function_signature(bool, string_parser_chcmp, const char ch)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
@@ -41,7 +41,7 @@ function_signature(bool, string_parser_chcmp, const char ch)
 	CALLTRACE_RETURN(result);
 }
 
-function_signature(bool, string_parser_strcmp, const char* str)
+MESHLIB_API function_signature(bool, string_parser_strcmp, const char* str)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
@@ -51,7 +51,7 @@ function_signature(bool, string_parser_strcmp, const char* str)
 	CALLTRACE_RETURN(result);
 }
 
-function_signature(bool, string_parser_strcmp_word, const char* word)
+MESHLIB_API function_signature(bool, string_parser_strcmp_word, const char* word)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
@@ -71,7 +71,7 @@ function_signature(bool, string_parser_strcmp_word, const char* word)
 	CALLTRACE_RETURN(result);
 }
 
-function_signature_void(void, string_parser_next_line)
+MESHLIB_API function_signature_void(void, string_parser_next_line)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
@@ -81,9 +81,9 @@ function_signature_void(void, string_parser_next_line)
 	CALLTRACE_END();
 }
 
-function_signature_void(u64, string_parser_line_count) { CALLTRACE_BEGIN(); CALLTRACE_RETURN(0); }
+MESHLIB_API function_signature_void(u64, string_parser_line_count) { CALLTRACE_BEGIN(); CALLTRACE_RETURN(0); }
 
-function_signature_void(void, string_parser_skip_whitespaces)
+MESHLIB_API function_signature_void(void, string_parser_skip_whitespaces)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
@@ -94,7 +94,7 @@ function_signature_void(void, string_parser_skip_whitespaces)
 	CALLTRACE_END();
 }
 
-function_signature_void(void, string_parser_skip_any_whitespace)
+MESHLIB_API function_signature_void(void, string_parser_skip_any_whitespace)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
@@ -105,7 +105,7 @@ function_signature_void(void, string_parser_skip_any_whitespace)
 	CALLTRACE_END();
 }
 
-function_signature_void(void, string_parser_skip_not_digits)
+MESHLIB_API function_signature_void(void, string_parser_skip_not_digits)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
@@ -115,7 +115,7 @@ function_signature_void(void, string_parser_skip_not_digits)
 	CALLTRACE_END();
 }
 
-function_signature_void(float, string_parser_float)
+MESHLIB_API function_signature_void(float, string_parser_float)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
@@ -129,14 +129,14 @@ function_signature_void(float, string_parser_float)
 	CALLTRACE_RETURN(atof(buffer));
 }
 
-function_signature_void(u64, string_parser_count)
+MESHLIB_API function_signature_void(u64, string_parser_count)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");
 	CALLTRACE_RETURN(binded_parser->data - binded_parser->origin);
 }
 
-function_signature_void(u64, string_parser_u64)
+MESHLIB_API function_signature_void(u64, string_parser_u64)
 {
 	CALLTRACE_BEGIN();
 	ASSERT(binded_parser != NULL, "binded_parser == NULL\n");

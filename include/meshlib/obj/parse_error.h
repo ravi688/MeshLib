@@ -2,6 +2,7 @@
 #pragma once
 
 #include <calltrace/calltrace.h>
+#include <meshlib/defines.h>
 
 #ifdef __cplusplus
 extern "C" {
@@ -17,7 +18,7 @@ enum obj_parse_error_t
 };
 
 
-function_signature(void, obj_parse_error, u64 error_type, u64 line_no);
+MESHLIB_API function_signature(void, obj_parse_error, u64 error_type, u64 line_no);
 #define obj_parse_error(...) define_alias_function_macro(obj_parse_error, __VA_ARGS__)
 
 

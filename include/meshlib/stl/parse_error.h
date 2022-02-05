@@ -25,7 +25,7 @@ enum stl_parse_error_t
 	STL_PARSE_ERROR_END_SOLID_NOT_FOUND
 };
 
-function_signature(void, stl_parse_error, u64 error_type, u64 line_no);
+MESHLIB_API function_signature(void, stl_parse_error, u64 error_type, u64 line_no);
 #define stl_parse_error(...) define_alias_function_macro(stl_parse_error, __VA_ARGS__)
 
 #ifdef __cplusplus

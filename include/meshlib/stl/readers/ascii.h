@@ -50,7 +50,7 @@ typedef struct stl_parse_callbacks_t stl_parse_callbacks_t;
  *      stl_parse_ascii(stl_file_data->bytes, stl_file_data->element_count, &callbacks);
  *		buf_free(stl_file_data);
  */
-function_signature(void, stl_parse_ascii, const char* text, u64 length, stl_parse_callbacks_t* parse_callbacks);
+MESHLIB_API function_signature(void, stl_parse_ascii, const char* text, u64 length, stl_parse_callbacks_t* parse_callbacks);
 #define stl_parse_ascii(...) define_alias_function_macro(stl_parse_ascii, __VA_ARGS__)
 
 #ifdef __cplusplus

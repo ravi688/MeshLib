@@ -5,7 +5,7 @@
 #include <meshlib/parsers/string.h>
 #include <meshlib/assert.h>
 
-function_signature(void, stl_parse_ascii, const char* text, u64 length, stl_parse_callbacks_t* parse_callbacks)
+MESHLIB_API function_signature(void, stl_parse_ascii, const char* text, u64 length, stl_parse_callbacks_t* parse_callbacks)
 {
 	CALLTRACE_BEGIN();
 	string_parser_t p = string_parser_new(text, length); string_parser_bind(&p);

@@ -15,8 +15,8 @@ PROJECT_NAME = MeshLib
 STATIC_LIB_NAME = meshlib.a
 DYNAMIC_LIB_NAME = meshlib.dll
 EXECUTABLE_NAME = main.exe
-DEPENDENCIES = BufferLib TemplateSystem HPML BufferLib/dependencies/CallTrace SafeMemory DiskManager
-DEPENDENCY_LIBS = BufferLib/lib/bufferlib.a HPML/lib/hpml.a BufferLib/dependencies/CallTrace/lib/calltrace.a SafeMemory/lib/safemem.a DiskManager/lib/diskmanager.a
+DEPENDENCIES = ../../../shared-dependencies/BufferLib ../../TemplateSystem ../../HPML ../../SafeMemory/shared-dependencies/CallTrace ../../SafeMemory DiskManager
+DEPENDENCY_LIBS = ../../../shared-dependencies/BufferLib/lib/bufferlib.a ../../HPML/lib/hpml.a ../../SafeMemory/shared-dependencies/CallTrace/lib/calltrace.a ../../SafeMemory/lib/safemem.a DiskManager/lib/diskmanager.a
 DEPENDENCIES_DIR = ./dependencies
 SHARED_DEPENDENCIES = #CallTrace
 SHARED_DEPENDENCY_LIBS = #CallTrace/lib/calltrace.a
@@ -220,9 +220,9 @@ bin-clean:
 	del $(subst /,\, $(TARGET_DYNAMIC_IMPORT_LIB))
 	rmdir $(subst /,\, $(TARGET_LIB_DIR))
 	@echo [Log] Binaries cleaned successfully!
-	$(MAKE) --directory=./dependencies/SafeMemory clean
-	$(MAKE) --directory=./dependencies/BufferLib clean
-	$(MAKE) --directory=./dependencies/HPML clean
+	$(MAKE) --directory=./dependencies/../../SafeMemory clean
+	$(MAKE) --directory=./dependencies/../../../shared-dependencies/BufferLib clean
+	$(MAKE) --directory=./dependencies/../../HPML clean
 	$(MAKE) --directory=./dependencies/DiskManager clean
 #-------------------------------------------
 

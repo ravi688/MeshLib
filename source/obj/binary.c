@@ -1,15 +1,11 @@
 
 #include <meshlib/obj/readers/binary.h>
-#include <hpml/vec3/header_config.h>
-#include <hpml/vec3/vec3.h>
-#include <hpml/vec2/header_config.h>
-#include <hpml/vec2/vec2.h>
-#include <hpml/vec4/header_config.h>
-#include <hpml/vec4/vec4.h>
+#include <hpml/vec3.h>
+#include <hpml/vec2.h>
+#include <hpml/vec4.h>
 
 #include <meshlib/assert.h>
 
-instantiate_vec4_struct(vec3_t(int));
 
 MESHLIB_API function_signature(void, obj_parse_binary, const char* bytes, u64 length, obj_parse_callbacks_t* parse_callbacks)
 {

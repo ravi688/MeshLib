@@ -10,46 +10,46 @@
 MESHLIB_API function_signature(void, obj_parse_ascii, const char* text, u64 length, obj_parse_callbacks_t* parse_callbacks)
 {
 	CALLTRACE_BEGIN();
-	string_parser_t p = string_parser_new(text, length); string_parser_bind(&p);
+	string_parser_t p = string_parser_new(text, length);
 
-	while(string_parser_count() < (length - 1))
+	while(string_parser_count(&p) < (length - 1))
 	{
-		string_parser_skip_any_whitespace();
-		while(string_parser_strcmp("#"))
-			string_parser_next_line();
+		string_parser_skip_any_whitespace(&p);
+		while(string_parser_strcmp(&p, "#"))
+			string_parser_next_line(&p);
 		u8 match = 0x00;
-		if(string_parser_strcmp_word("v"))
+		if(string_parser_strcmp_word(&p, "v"))
 			match |= 1 << 1;	
-		else if(string_parser_strcmp_word("vn"))
+		else if(string_parser_strcmp_word(&p, "vn"))
 			match |= 1 << 2;	
-		else if(string_parser_strcmp_word("vt"))
+		else if(string_parser_strcmp_word(&p, "vt"))
 			match |= 1 << 3;
-		else if(string_parser_strcmp_word("f"))
+		else if(string_parser_strcmp_word(&p, "f"))
 			match |= 1 << 4;
 
 		switch(match)		
 		{
 			default:
-			string_parser_next_line();
+			string_parser_next_line(&p);
 			break;
 
 			//Parse vertex
 			case (1 << 1):
-			float v[3] = { string_parser_float(), string_parser_float(), string_parser_float() };
+			float v[3] = { string_parser_float(&p), string_parser_float(&p), string_parser_float(&p) };
 			if(parse_callbacks->vertex_position_callback != NULL)
 				parse_callbacks->vertex_position_callback(&v[0], parse_callbacks->user_data);
 			break;
 
 			//Parse normal
 			case (1 << 2):
-			float n[3] = { string_parser_float(), string_parser_float(), string_parser_float() };
+			float n[3] = { string_parser_float(&p), string_parser_float(&p), string_parser_float(&p) };
 			if(parse_callbacks->vertex_normal_callback != NULL)
 				parse_callbacks->vertex_normal_callback(&n[0], parse_callbacks->user_data);
 			break;
 			
 			//Parse texcoord
 			case (1 << 3):
-			float t[2] = { string_parser_float(), string_parser_float() };
+			float t[2] = { string_parser_float(&p), string_parser_float(&p) };
 			if(parse_callbacks->vertex_texcoord_callback != NULL)
 				parse_callbacks->vertex_texcoord_callback(&t[0], parse_callbacks->user_data);
 			break;

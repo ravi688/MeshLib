@@ -1,6 +1,8 @@
 
 #pragma once
 
+#include <meshlib/api_defines.h>
+
 #include <stdint.h>
 #include <stdbool.h>
 
@@ -14,12 +16,7 @@ typedef int16_t s16;
 typedef int32_t s32;
 typedef int64_t s64;
 
-#ifdef MESHLIB_STATIC_LIBRARY
-#	define MESHLIB_API
-#elif MESHLIB_DYNAMIC_LIBRARY
-#	define MESHLIB_API __declspec(dllimport)
-#elif BUILD_DYNAMIC_LIBRARY
-#	define MESHLIB_API __declspec(dllexport)
-#else
-#	define MESHLIB_API
+#if !defined(MESHLIB_RELEASE) && !defined(MESHLIB_DEBUG)
+#	warning "None of MESHLIB_RELEASE && MESHLIB_DEBUG is defined; using MESHLIB_DEBUG"
+#	define MESHLIB_DEBUG
 #endif

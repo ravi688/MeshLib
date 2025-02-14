@@ -1,15 +1,3 @@
-[submodule "dependencies/HPML"]
-	path = dependencies/HPML
-	url = https://github.com/ravi688/HPML.git
-[submodule "dependencies/BufferLib"]
-	path = dependencies/BufferLib
-	url = https://github.com/ravi688/BufferLib.git
 [submodule "dependencies/TemplateSystem"]
 	path = dependencies/TemplateSystem
 	url = https://github.com/ravi688/TemplateSystem.git
-[submodule "dependencies/SafeMemory"]
-	path = dependencies/SafeMemory
-	url = https://github.com/ravi688/SafeMemory.git
-[submodule "dependencies/DiskManager"]
-	path = dependencies/DiskManager
-	url = https://github.com/ravi688/DiskManager

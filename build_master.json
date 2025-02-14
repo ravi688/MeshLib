@@ -1,0 +1,46 @@
+{
+    "project_name": "MeshLib",
+    "canonical_name": "meshlib",
+    "description" : "Mesh Processing Library",
+    "dependencies" : [ 
+        "bufferlib", 
+        "calltrace", 
+        "diskmanager", 
+        "hpml", 
+        "safemem",
+        "tempsys"
+    ],
+    "install_header_dirs" : [ "include/meshlib" ],
+    "include_dirs": [ "include" ],
+    "debug_defines" : [ "-DMESHLIB_DEBUG", "-DGLOBAL_DEBUG", "-DDEBUG", "-DLOG_DEBUG" ],
+    "release_defines" : [ "-DMESHLIB_RELEASE", "-DGLOBAL_RELEASE", "-DRELEASE", "-DLOG_RELEASE" ],
+    "targets": [
+        {
+            "name": "meshlib",
+            "is_executable": true,
+            "sources": [
+                "source/main.c"
+            ]
+        },
+        {
+            "name" : "meshlib_static",
+            "description" : "Static library for MeshLib",
+            "is_static_library" : true
+        },
+        {
+            "name" : "meshlib_shared",
+            "description" : "Shared Library for MeshLib",
+            "is_shared_library" : true
+        }
+    ],
+    "sources" : [
+        "source/obj/ascii.c",
+        "source/obj/binary.c",
+        "source/obj/parse_error.c",
+        "source/parsers/binary.c",
+        "source/parsers/string.c",
+        "source/stl/ascii.c",
+        "source/stl/binary.c",
+        "source/stl/parse_error.c"
+    ]
+}

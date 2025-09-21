@@ -105,9 +105,20 @@ darwin_link_args_bm_internal__ = [
 # -------------------------------------------------------------------------------
 # ------------------------------ FIXTURE ----------------------------------------
 
+project_args_bm_internal__ = [ ]
+
+if host_machine.cpu_family() == 'x86' or host_machine.cpu_family() == 'x86_64'
+  message('Building for x86')
+  project_args_bm_internal__ = [ '-m64' ]
+elif host_machine.cpu_family().startswith('arm') or host_machine.cpu_family() == 'aarch64'
+  message('Building for ARM')
+else
+  message('Unknown architecture: ' + host_machine.cpu_family())
+endif
+
 # Compiler configuration
-add_project_arguments('-m64', language : 'c')
-add_project_arguments('-m64', language : 'cpp')
+add_project_arguments(project_args_bm_internal__, language : 'c')
+add_project_arguments(project_args_bm_internal__, language : 'cpp')
 # Linker configuration
 link_args_bm_internal__ = []
 os_name_bm_internal__ = host_machine.system()
@@ -122,15 +133,15 @@ add_project_link_arguments('-m64', link_args_bm_internal__, language : 'c')
 add_project_link_arguments('-m64', link_args_bm_internal__, language : 'cpp')
 
 # Build type specific defines
-build_mode_defines_bm_internal__ = defines_bm_internal__
+project_build_mode_defines_bm_internal__ = defines_bm_internal__
 if get_option('buildtype') == 'release'
   add_project_arguments(release_defines_bm_internal__, language : 'c')
   add_project_arguments(release_defines_bm_internal__, language : 'cpp')
-  build_mode_defines_bm_internal__ += release_defines_bm_internal__
+  project_build_mode_defines_bm_internal__ += release_defines_bm_internal__
 else
   add_project_arguments(debug_defines_bm_internal__, language : 'c')
   add_project_arguments(debug_defines_bm_internal__, language : 'cpp')
-  build_mode_defines_bm_internal__ += debug_defines_bm_internal__
+  project_build_mode_defines_bm_internal__ += debug_defines_bm_internal__
 endif
 
 # pkg-config package installation
@@ -192,8 +203,8 @@ meshlib = executable('meshlib',
 	dependencies: dependencies_bm_internal__ + meshlib_dependencies_bm_internal__,
 	include_directories: [inc_bm_internal__, meshlib_include_dirs_bm_internal__],
 	install: false,
-	c_args: meshlib_defines_bm_internal__,
-	cpp_args: meshlib_defines_bm_internal__, 
+	c_args: meshlib_defines_bm_internal__ + project_build_mode_defines_bm_internal__,
+	cpp_args: meshlib_defines_bm_internal__ + project_build_mode_defines_bm_internal__, 
 	link_args: meshlib_link_args_bm_internal__[host_machine.system()],
 	gnu_symbol_visibility: 'hidden'
 )
@@ -225,22 +236,22 @@ meshlib_static = static_library('meshlib_static',
 	include_directories: [inc_bm_internal__, meshlib_static_include_dirs_bm_internal__],
 	install: true,
 	install_dir: lib_install_dir_bm_internal__,
-	c_args: meshlib_static_build_defines_bm_internal__,
-	cpp_args: meshlib_static_build_defines_bm_internal__, 
+	c_args: meshlib_static_build_defines_bm_internal__ + project_build_mode_defines_bm_internal__,
+	cpp_args: meshlib_static_build_defines_bm_internal__ + project_build_mode_defines_bm_internal__, 
 	link_args: meshlib_static_link_args_bm_internal__[host_machine.system()],
 	gnu_symbol_visibility: 'hidden'
 )
 meshlib_static_dep = declare_dependency(
 	link_with: meshlib_static,
 	include_directories: [inc_bm_internal__, meshlib_static_include_dirs_bm_internal__],
-	compile_args: meshlib_static_use_defines_bm_internal__ + build_mode_defines_bm_internal__
+	compile_args: meshlib_static_use_defines_bm_internal__ + project_build_mode_defines_bm_internal__
 )
 pkgmod.generate(meshlib_static,
 	name: 'MeshLib',
 	description: 'Static library for MeshLib',
 	filebase: 'meshlib_static',
 	install_dir: pkgconfig_install_path_bm_internal__,
-	extra_cflags: meshlib_static_use_defines_bm_internal__ + build_mode_defines_bm_internal__
+	extra_cflags: meshlib_static_use_defines_bm_internal__ + project_build_mode_defines_bm_internal__
 )
 
 # -------------- Target: meshlib_shared ------------------
@@ -270,22 +281,22 @@ meshlib_shared = shared_library('meshlib_shared',
 	include_directories: [inc_bm_internal__, meshlib_shared_include_dirs_bm_internal__],
 	install: true,
 	install_dir: lib_install_dir_bm_internal__,
-	c_args: meshlib_shared_build_defines_bm_internal__,
-	cpp_args: meshlib_shared_build_defines_bm_internal__, 
+	c_args: meshlib_shared_build_defines_bm_internal__ + project_build_mode_defines_bm_internal__,
+	cpp_args: meshlib_shared_build_defines_bm_internal__ + project_build_mode_defines_bm_internal__, 
 	link_args: meshlib_shared_link_args_bm_internal__[host_machine.system()],
 	gnu_symbol_visibility: 'hidden'
 )
 meshlib_shared_dep = declare_dependency(
 	link_with: meshlib_shared,
 	include_directories: [inc_bm_internal__, meshlib_shared_include_dirs_bm_internal__],
-	compile_args: meshlib_shared_use_defines_bm_internal__ + build_mode_defines_bm_internal__
+	compile_args: meshlib_shared_use_defines_bm_internal__ + project_build_mode_defines_bm_internal__
 )
 pkgmod.generate(meshlib_shared,
 	name: 'MeshLib',
 	description: 'Shared Library for MeshLib',
 	filebase: 'meshlib_shared',
 	install_dir: pkgconfig_install_path_bm_internal__,
-	extra_cflags: meshlib_shared_use_defines_bm_internal__ + build_mode_defines_bm_internal__
+	extra_cflags: meshlib_shared_use_defines_bm_internal__ + project_build_mode_defines_bm_internal__
 )
 
 
